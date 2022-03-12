@@ -1,7 +1,0 @@
-C:\Users\Razvan\source\repos\MPP_Proiect\MPP_Proiect\bin\Debug\MPP_Proiect.exe.config
-C:\Users\Razvan\source\repos\MPP_Proiect\MPP_Proiect\bin\Debug\MPP_Proiect.exe
-C:\Users\Razvan\source\repos\MPP_Proiect\MPP_Proiect\bin\Debug\MPP_Proiect.pdb
-C:\Users\Razvan\source\repos\MPP_Proiect\MPP_Proiect\obj\Debug\MPP_Proiect.csproj.AssemblyReference.cache
-C:\Users\Razvan\source\repos\MPP_Proiect\MPP_Proiect\obj\Debug\MPP_Proiect.csproj.CoreCompileInputs.cache
-C:\Users\Razvan\source\repos\MPP_Proiect\MPP_Proiect\obj\Debug\MPP_Proiect.exe
-C:\Users\Razvan\source\repos\MPP_Proiect\MPP_Proiect\obj\Debug\MPP_Proiect.pdb
