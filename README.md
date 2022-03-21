@@ -10,3 +10,6 @@ S2 -> - Implementare claselor: Entity, Emmployee, Location, Show si Ticket pentr
 S3 -> - Rezolvare observatii profesor pentru lab-ul precedent -
       - Implementare repository si jurnalizare in Java -
       - Implementare repository si jurnalizare in C# -
+
+S4 -> - Implementare service in Java -
+      - Realizare interfata grafica cu javafx -
