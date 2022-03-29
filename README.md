@@ -13,3 +13,6 @@ S3 -> - Rezolvare observatii profesor pentru lab-ul precedent -
 
 S4 -> - Implementare service in Java -
       - Realizare interfata grafica cu javafx -
+
+S5 -> - Implementare service in C# -
+      - Realizare interfata grafica cu VisualStudio -
