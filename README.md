@@ -16,3 +16,5 @@ S4 -> - Implementare service in Java -
 
 S5 -> - Implementare service in C# -
       - Realizare interfata grafica cu VisualStudio -
+
+S6 -> - Modificare aplicatie Clinet-Server in Java-
