@@ -1,0 +1,8 @@
+rootProject.name = 'MPP_FestivalMuzica'
+include 'FestivalModel'
+include 'FestivalServices'
+include 'FestivalPersistence'
+include 'FestivalServer'
+include 'FestivalNetworking'
+include 'FestivalClientFx'
+

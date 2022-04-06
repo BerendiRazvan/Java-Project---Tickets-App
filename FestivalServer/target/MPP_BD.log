@@ -1,0 +1,723 @@
+04 Apr 2022 17:49:43,584 INFO  festival.persistence.EmployeesDataBaseRepository 22 <init> - Initializing EmployeesDataBaseRepository with properties: {jdbc.user=postgres, festival.server.port=7899, jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, jdbc.pass=postgre} 
+04 Apr 2022 17:49:43,584 INFO  festival.persistence.LocationsDataBaseRepository 21 <init> - Initializing LocationsDataBaseRepository with properties: {jdbc.user=postgres, festival.server.port=7899, jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, jdbc.pass=postgre} 
+04 Apr 2022 17:49:43,584 INFO  festival.persistence.ShowsDataBaseRepository 21 <init> - Initializing ShowsDataBaseRepository with properties: {jdbc.user=postgres, festival.server.port=7899, jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, jdbc.pass=postgre} 
+04 Apr 2022 17:49:43,599 INFO  festival.persistence.TicketsDataBaseRepository 23 <init> - Initializing TicketsDataBaseRepository with properties: {jdbc.user=postgres, festival.server.port=7899, jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, jdbc.pass=postgre} 
+04 Apr 2022 18:47:02,237 INFO  festival.persistence.EmployeesDataBaseRepository 22 <init> - Initializing EmployeesDataBaseRepository with properties: {jdbc.user=postgres, festival.server.port=7899, jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, jdbc.pass=postgre} 
+04 Apr 2022 18:47:02,252 INFO  festival.persistence.LocationsDataBaseRepository 21 <init> - Initializing LocationsDataBaseRepository with properties: {jdbc.user=postgres, festival.server.port=7899, jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, jdbc.pass=postgre} 
+04 Apr 2022 18:47:02,252 INFO  festival.persistence.ShowsDataBaseRepository 21 <init> - Initializing ShowsDataBaseRepository with properties: {jdbc.user=postgres, festival.server.port=7899, jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, jdbc.pass=postgre} 
+04 Apr 2022 18:47:02,252 INFO  festival.persistence.TicketsDataBaseRepository 23 <init> - Initializing TicketsDataBaseRepository with properties: {jdbc.user=postgres, festival.server.port=7899, jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, jdbc.pass=postgre} 
+04 Apr 2022 18:48:44,867 INFO  festival.persistence.EmployeesDataBaseRepository 22 <init> - Initializing EmployeesDataBaseRepository with properties: {jdbc.user=postgres, festival.server.port=7899, jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, jdbc.pass=postgre} 
+04 Apr 2022 18:48:44,882 INFO  festival.persistence.LocationsDataBaseRepository 21 <init> - Initializing LocationsDataBaseRepository with properties: {jdbc.user=postgres, festival.server.port=7899, jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, jdbc.pass=postgre} 
+04 Apr 2022 18:48:44,882 INFO  festival.persistence.ShowsDataBaseRepository 21 <init> - Initializing ShowsDataBaseRepository with properties: {jdbc.user=postgres, festival.server.port=7899, jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, jdbc.pass=postgre} 
+04 Apr 2022 18:48:44,882 INFO  festival.persistence.TicketsDataBaseRepository 23 <init> - Initializing TicketsDataBaseRepository with properties: {jdbc.user=postgres, festival.server.port=7899, jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, jdbc.pass=postgre} 
+04 Apr 2022 18:50:19,699 INFO  festival.persistence.EmployeesDataBaseRepository 22 <init> - Initializing EmployeesDataBaseRepository with properties: {jdbc.user=postgres, festival.server.port=7899, jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, jdbc.pass=postgre} 
+04 Apr 2022 18:50:19,699 INFO  festival.persistence.LocationsDataBaseRepository 21 <init> - Initializing LocationsDataBaseRepository with properties: {jdbc.user=postgres, festival.server.port=7899, jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, jdbc.pass=postgre} 
+04 Apr 2022 18:50:19,699 INFO  festival.persistence.ShowsDataBaseRepository 21 <init> - Initializing ShowsDataBaseRepository with properties: {jdbc.user=postgres, festival.server.port=7899, jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, jdbc.pass=postgre} 
+04 Apr 2022 18:50:19,714 INFO  festival.persistence.TicketsDataBaseRepository 23 <init> - Initializing TicketsDataBaseRepository with properties: {jdbc.user=postgres, festival.server.port=7899, jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, jdbc.pass=postgre} 
+04 Apr 2022 18:50:39,779 TRACE festival.persistence.EmployeesDataBaseRepository 109 findOneEmployee - Enter
+04 Apr 2022 18:50:39,779 TRACE festival.persistence.JdbcUtils 45 getConnection - Enter
+04 Apr 2022 18:50:39,780 TRACE festival.persistence.JdbcUtils 23 getNewConnection - Enter
+04 Apr 2022 18:50:39,780 INFO  festival.persistence.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB
+04 Apr 2022 18:50:39,780 INFO  festival.persistence.JdbcUtils 28 getNewConnection - user: postgres
+04 Apr 2022 18:50:39,780 INFO  festival.persistence.JdbcUtils 29 getNewConnection - pass: postgre
+04 Apr 2022 18:50:39,789 ERROR festival.persistence.JdbcUtils 38 getNewConnection - java.sql.SQLException: No suitable driver found for jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB
+04 Apr 2022 18:50:39,790 TRACE festival.persistence.JdbcUtils 40 getNewConnection - Exit
+04 Apr 2022 18:50:39,790 TRACE festival.persistence.JdbcUtils 52 getConnection - Exit
+04 Apr 2022 18:53:18,489 INFO  festival.persistence.EmployeesDataBaseRepository 22 <init> - Initializing EmployeesDataBaseRepository with properties: {jdbc.user=postgres, festival.server.port=7899, jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, jdbc.pass=postgre} 
+04 Apr 2022 18:53:18,489 INFO  festival.persistence.LocationsDataBaseRepository 21 <init> - Initializing LocationsDataBaseRepository with properties: {jdbc.user=postgres, festival.server.port=7899, jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, jdbc.pass=postgre} 
+04 Apr 2022 18:53:18,489 INFO  festival.persistence.ShowsDataBaseRepository 21 <init> - Initializing ShowsDataBaseRepository with properties: {jdbc.user=postgres, festival.server.port=7899, jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, jdbc.pass=postgre} 
+04 Apr 2022 18:53:18,489 INFO  festival.persistence.TicketsDataBaseRepository 23 <init> - Initializing TicketsDataBaseRepository with properties: {jdbc.user=postgres, festival.server.port=7899, jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, jdbc.pass=postgre} 
+04 Apr 2022 18:53:26,371 TRACE festival.persistence.EmployeesDataBaseRepository 109 findOneEmployee - Enter
+04 Apr 2022 18:53:26,372 TRACE festival.persistence.JdbcUtils 45 getConnection - Enter
+04 Apr 2022 18:53:26,372 TRACE festival.persistence.JdbcUtils 23 getNewConnection - Enter
+04 Apr 2022 18:53:26,372 INFO  festival.persistence.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB
+04 Apr 2022 18:53:26,373 INFO  festival.persistence.JdbcUtils 28 getNewConnection - user: postgres
+04 Apr 2022 18:53:26,373 INFO  festival.persistence.JdbcUtils 29 getNewConnection - pass: postgre
+04 Apr 2022 18:53:26,381 ERROR festival.persistence.JdbcUtils 38 getNewConnection - java.sql.SQLException: No suitable driver found for jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB
+04 Apr 2022 18:53:26,383 TRACE festival.persistence.JdbcUtils 40 getNewConnection - Exit
+04 Apr 2022 18:53:26,383 TRACE festival.persistence.JdbcUtils 52 getConnection - Exit
+04 Apr 2022 18:55:01,555 INFO  festival.persistence.EmployeesDataBaseRepository 22 <init> - Initializing EmployeesDataBaseRepository with properties: {jdbc.user=postgres, festival.server.port=7899, jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, jdbc.pass=postgre} 
+04 Apr 2022 18:55:01,555 INFO  festival.persistence.LocationsDataBaseRepository 21 <init> - Initializing LocationsDataBaseRepository with properties: {jdbc.user=postgres, festival.server.port=7899, jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, jdbc.pass=postgre} 
+04 Apr 2022 18:55:01,555 INFO  festival.persistence.ShowsDataBaseRepository 21 <init> - Initializing ShowsDataBaseRepository with properties: {jdbc.user=postgres, festival.server.port=7899, jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, jdbc.pass=postgre} 
+04 Apr 2022 18:55:01,570 INFO  festival.persistence.TicketsDataBaseRepository 23 <init> - Initializing TicketsDataBaseRepository with properties: {jdbc.user=postgres, festival.server.port=7899, jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, jdbc.pass=postgre} 
+04 Apr 2022 18:55:16,209 TRACE festival.persistence.EmployeesDataBaseRepository 109 findOneEmployee - Enter
+04 Apr 2022 18:55:16,210 TRACE festival.persistence.JdbcUtils 45 getConnection - Enter
+04 Apr 2022 18:55:16,210 TRACE festival.persistence.JdbcUtils 23 getNewConnection - Enter
+04 Apr 2022 18:55:16,211 INFO  festival.persistence.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB
+04 Apr 2022 18:55:16,211 INFO  festival.persistence.JdbcUtils 28 getNewConnection - user: postgres
+04 Apr 2022 18:55:16,211 INFO  festival.persistence.JdbcUtils 29 getNewConnection - pass: postgre
+04 Apr 2022 18:55:16,218 ERROR festival.persistence.JdbcUtils 38 getNewConnection - java.sql.SQLException: No suitable driver found for jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB
+04 Apr 2022 18:55:16,219 TRACE festival.persistence.JdbcUtils 40 getNewConnection - Exit
+04 Apr 2022 18:55:16,220 TRACE festival.persistence.JdbcUtils 52 getConnection - Exit
+04 Apr 2022 18:56:55,679 INFO  festival.persistence.EmployeesDataBaseRepository 22 <init> - Initializing EmployeesDataBaseRepository with properties: {jdbc.user=postgres, festival.server.port=7899, jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, jdbc.pass=postgre} 
+04 Apr 2022 18:56:55,695 INFO  festival.persistence.LocationsDataBaseRepository 21 <init> - Initializing LocationsDataBaseRepository with properties: {jdbc.user=postgres, festival.server.port=7899, jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, jdbc.pass=postgre} 
+04 Apr 2022 18:56:55,695 INFO  festival.persistence.ShowsDataBaseRepository 21 <init> - Initializing ShowsDataBaseRepository with properties: {jdbc.user=postgres, festival.server.port=7899, jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, jdbc.pass=postgre} 
+04 Apr 2022 18:56:55,695 INFO  festival.persistence.TicketsDataBaseRepository 23 <init> - Initializing TicketsDataBaseRepository with properties: {jdbc.user=postgres, festival.server.port=7899, jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, jdbc.pass=postgre} 
+04 Apr 2022 18:57:01,710 TRACE festival.persistence.EmployeesDataBaseRepository 109 findOneEmployee - Enter
+04 Apr 2022 18:57:01,711 TRACE festival.persistence.JdbcUtils 45 getConnection - Enter
+04 Apr 2022 18:57:01,711 TRACE festival.persistence.JdbcUtils 23 getNewConnection - Enter
+04 Apr 2022 18:57:01,712 INFO  festival.persistence.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB
+04 Apr 2022 18:57:01,712 INFO  festival.persistence.JdbcUtils 28 getNewConnection - user: postgres
+04 Apr 2022 18:57:01,712 INFO  festival.persistence.JdbcUtils 29 getNewConnection - pass: postgre
+04 Apr 2022 18:57:01,720 ERROR festival.persistence.JdbcUtils 38 getNewConnection - java.sql.SQLException: No suitable driver found for jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB
+04 Apr 2022 18:57:01,722 TRACE festival.persistence.JdbcUtils 40 getNewConnection - Exit
+04 Apr 2022 18:57:01,722 TRACE festival.persistence.JdbcUtils 52 getConnection - Exit
+04 Apr 2022 19:01:03,510 INFO  festival.persistence.EmployeesDataBaseRepository 22 <init> - Initializing EmployeesDataBaseRepository with properties: {jdbc.user=postgres, festival.server.port=7899, jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, jdbc.pass=postgre} 
+04 Apr 2022 19:01:03,526 INFO  festival.persistence.LocationsDataBaseRepository 21 <init> - Initializing LocationsDataBaseRepository with properties: {jdbc.user=postgres, festival.server.port=7899, jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, jdbc.pass=postgre} 
+04 Apr 2022 19:01:03,526 INFO  festival.persistence.ShowsDataBaseRepository 21 <init> - Initializing ShowsDataBaseRepository with properties: {jdbc.user=postgres, festival.server.port=7899, jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, jdbc.pass=postgre} 
+04 Apr 2022 19:01:03,526 INFO  festival.persistence.TicketsDataBaseRepository 23 <init> - Initializing TicketsDataBaseRepository with properties: {jdbc.user=postgres, festival.server.port=7899, jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, jdbc.pass=postgre} 
+04 Apr 2022 19:01:58,178 INFO  festival.persistence.EmployeesDataBaseRepository 22 <init> - Initializing EmployeesDataBaseRepository with properties: {jdbc.user=postgres, festival.server.port=7899, jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, jdbc.pass=postgre} 
+04 Apr 2022 19:01:58,194 INFO  festival.persistence.LocationsDataBaseRepository 21 <init> - Initializing LocationsDataBaseRepository with properties: {jdbc.user=postgres, festival.server.port=7899, jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, jdbc.pass=postgre} 
+04 Apr 2022 19:01:58,194 INFO  festival.persistence.ShowsDataBaseRepository 21 <init> - Initializing ShowsDataBaseRepository with properties: {jdbc.user=postgres, festival.server.port=7899, jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, jdbc.pass=postgre} 
+04 Apr 2022 19:01:58,194 INFO  festival.persistence.TicketsDataBaseRepository 23 <init> - Initializing TicketsDataBaseRepository with properties: {jdbc.user=postgres, festival.server.port=7899, jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, jdbc.pass=postgre} 
+04 Apr 2022 19:04:25,640 INFO  festival.persistence.EmployeesDataBaseRepository 22 <init> - Initializing EmployeesDataBaseRepository with properties: {jdbc.user=postgres, festival.server.port=7899, jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, jdbc.pass=postgre} 
+04 Apr 2022 19:04:25,655 INFO  festival.persistence.LocationsDataBaseRepository 21 <init> - Initializing LocationsDataBaseRepository with properties: {jdbc.user=postgres, festival.server.port=7899, jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, jdbc.pass=postgre} 
+04 Apr 2022 19:04:25,655 INFO  festival.persistence.ShowsDataBaseRepository 21 <init> - Initializing ShowsDataBaseRepository with properties: {jdbc.user=postgres, festival.server.port=7899, jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, jdbc.pass=postgre} 
+04 Apr 2022 19:04:25,655 INFO  festival.persistence.TicketsDataBaseRepository 23 <init> - Initializing TicketsDataBaseRepository with properties: {jdbc.user=postgres, festival.server.port=7899, jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, jdbc.pass=postgre} 
+04 Apr 2022 19:05:59,361 INFO  festival.persistence.EmployeesDataBaseRepository 22 <init> - Initializing EmployeesDataBaseRepository with properties: {jdbc.user=test, festival.server.port=7899, jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, jdbc.pass=test} 
+04 Apr 2022 19:05:59,361 INFO  festival.persistence.LocationsDataBaseRepository 21 <init> - Initializing LocationsDataBaseRepository with properties: {jdbc.user=test, festival.server.port=7899, jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, jdbc.pass=test} 
+04 Apr 2022 19:05:59,361 INFO  festival.persistence.ShowsDataBaseRepository 21 <init> - Initializing ShowsDataBaseRepository with properties: {jdbc.user=test, festival.server.port=7899, jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, jdbc.pass=test} 
+04 Apr 2022 19:05:59,361 INFO  festival.persistence.TicketsDataBaseRepository 23 <init> - Initializing TicketsDataBaseRepository with properties: {jdbc.user=test, festival.server.port=7899, jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, jdbc.pass=test} 
+04 Apr 2022 19:06:22,013 TRACE festival.persistence.EmployeesDataBaseRepository 109 findOneEmployee - Enter
+04 Apr 2022 19:06:22,014 TRACE festival.persistence.JdbcUtils 45 getConnection - Enter
+04 Apr 2022 19:06:22,014 TRACE festival.persistence.JdbcUtils 23 getNewConnection - Enter
+04 Apr 2022 19:06:22,015 INFO  festival.persistence.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB
+04 Apr 2022 19:06:22,015 INFO  festival.persistence.JdbcUtils 28 getNewConnection - user: test
+04 Apr 2022 19:06:22,015 INFO  festival.persistence.JdbcUtils 29 getNewConnection - pass: test
+04 Apr 2022 19:06:22,022 ERROR festival.persistence.JdbcUtils 38 getNewConnection - java.sql.SQLException: No suitable driver found for jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB
+04 Apr 2022 19:06:22,023 TRACE festival.persistence.JdbcUtils 40 getNewConnection - Exit
+04 Apr 2022 19:06:22,023 TRACE festival.persistence.JdbcUtils 52 getConnection - Exit
+04 Apr 2022 19:08:38,986 INFO  festival.persistence.EmployeesDataBaseRepository 22 <init> - Initializing EmployeesDataBaseRepository with properties: {jdbc.user=test, festival.server.port=7899, jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, jdbc.pass=test} 
+04 Apr 2022 19:08:39,001 INFO  festival.persistence.LocationsDataBaseRepository 21 <init> - Initializing LocationsDataBaseRepository with properties: {jdbc.user=test, festival.server.port=7899, jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, jdbc.pass=test} 
+04 Apr 2022 19:08:39,001 INFO  festival.persistence.ShowsDataBaseRepository 21 <init> - Initializing ShowsDataBaseRepository with properties: {jdbc.user=test, festival.server.port=7899, jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, jdbc.pass=test} 
+04 Apr 2022 19:08:39,001 INFO  festival.persistence.TicketsDataBaseRepository 23 <init> - Initializing TicketsDataBaseRepository with properties: {jdbc.user=test, festival.server.port=7899, jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, jdbc.pass=test} 
+04 Apr 2022 19:08:44,425 TRACE festival.persistence.EmployeesDataBaseRepository 109 findOneEmployee - Enter
+04 Apr 2022 19:08:44,426 TRACE festival.persistence.JdbcUtils 45 getConnection - Enter
+04 Apr 2022 19:08:44,426 TRACE festival.persistence.JdbcUtils 23 getNewConnection - Enter
+04 Apr 2022 19:08:44,427 INFO  festival.persistence.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB
+04 Apr 2022 19:08:44,427 INFO  festival.persistence.JdbcUtils 28 getNewConnection - user: test
+04 Apr 2022 19:08:44,427 INFO  festival.persistence.JdbcUtils 29 getNewConnection - pass: test
+04 Apr 2022 19:08:44,434 ERROR festival.persistence.JdbcUtils 38 getNewConnection - java.sql.SQLException: No suitable driver found for jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB
+04 Apr 2022 19:08:44,435 TRACE festival.persistence.JdbcUtils 40 getNewConnection - Exit
+04 Apr 2022 19:08:44,436 TRACE festival.persistence.JdbcUtils 52 getConnection - Exit
+04 Apr 2022 19:11:22,472 INFO  festival.persistence.EmployeesDataBaseRepository 22 <init> - Initializing EmployeesDataBaseRepository with properties: {jdbc.user=test, festival.server.port=7899, jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, jdbc.pass=test} 
+04 Apr 2022 19:11:22,487 INFO  festival.persistence.LocationsDataBaseRepository 21 <init> - Initializing LocationsDataBaseRepository with properties: {jdbc.user=test, festival.server.port=7899, jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, jdbc.pass=test} 
+04 Apr 2022 19:11:22,487 INFO  festival.persistence.ShowsDataBaseRepository 21 <init> - Initializing ShowsDataBaseRepository with properties: {jdbc.user=test, festival.server.port=7899, jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, jdbc.pass=test} 
+04 Apr 2022 19:11:22,487 INFO  festival.persistence.TicketsDataBaseRepository 23 <init> - Initializing TicketsDataBaseRepository with properties: {jdbc.user=test, festival.server.port=7899, jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, jdbc.pass=test} 
+04 Apr 2022 19:11:39,046 TRACE festival.persistence.EmployeesDataBaseRepository 109 findOneEmployee - Enter
+04 Apr 2022 19:11:39,047 TRACE festival.persistence.JdbcUtils 45 getConnection - Enter
+04 Apr 2022 19:11:39,047 TRACE festival.persistence.JdbcUtils 23 getNewConnection - Enter
+04 Apr 2022 19:11:39,048 INFO  festival.persistence.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB
+04 Apr 2022 19:11:39,048 INFO  festival.persistence.JdbcUtils 28 getNewConnection - user: test
+04 Apr 2022 19:11:39,048 INFO  festival.persistence.JdbcUtils 29 getNewConnection - pass: test
+04 Apr 2022 19:11:39,057 ERROR festival.persistence.JdbcUtils 38 getNewConnection - java.sql.SQLException: No suitable driver found for jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB
+04 Apr 2022 19:11:39,058 TRACE festival.persistence.JdbcUtils 40 getNewConnection - Exit
+04 Apr 2022 19:11:39,059 TRACE festival.persistence.JdbcUtils 52 getConnection - Exit
+04 Apr 2022 19:13:42,246 INFO  festival.persistence.EmployeesDataBaseRepository 22 <init> - Initializing EmployeesDataBaseRepository with properties: {festival.server.port=7899, jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, jdbc.driver=org.sqlite.JDBC} 
+04 Apr 2022 19:13:42,249 INFO  festival.persistence.LocationsDataBaseRepository 21 <init> - Initializing LocationsDataBaseRepository with properties: {festival.server.port=7899, jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, jdbc.driver=org.sqlite.JDBC} 
+04 Apr 2022 19:13:42,249 INFO  festival.persistence.ShowsDataBaseRepository 21 <init> - Initializing ShowsDataBaseRepository with properties: {festival.server.port=7899, jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, jdbc.driver=org.sqlite.JDBC} 
+04 Apr 2022 19:13:42,249 INFO  festival.persistence.TicketsDataBaseRepository 23 <init> - Initializing TicketsDataBaseRepository with properties: {festival.server.port=7899, jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, jdbc.driver=org.sqlite.JDBC} 
+04 Apr 2022 19:14:13,087 TRACE festival.persistence.EmployeesDataBaseRepository 109 findOneEmployee - Enter
+04 Apr 2022 19:14:13,088 TRACE festival.persistence.JdbcUtils 45 getConnection - Enter
+04 Apr 2022 19:14:13,088 TRACE festival.persistence.JdbcUtils 23 getNewConnection - Enter
+04 Apr 2022 19:14:13,088 INFO  festival.persistence.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB
+04 Apr 2022 19:14:13,089 INFO  festival.persistence.JdbcUtils 28 getNewConnection - user: null
+04 Apr 2022 19:14:13,089 INFO  festival.persistence.JdbcUtils 29 getNewConnection - pass: null
+04 Apr 2022 19:14:13,097 ERROR festival.persistence.JdbcUtils 38 getNewConnection - java.sql.SQLException: No suitable driver found for jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB
+04 Apr 2022 19:14:13,098 TRACE festival.persistence.JdbcUtils 40 getNewConnection - Exit
+04 Apr 2022 19:14:13,099 TRACE festival.persistence.JdbcUtils 52 getConnection - Exit
+04 Apr 2022 19:16:15,584 INFO  festival.persistence.EmployeesDataBaseRepository 22 <init> - Initializing EmployeesDataBaseRepository with properties: {festival.jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, festival.jdbc.driver=org.sqlite.JDBC, festival.server.port=7899} 
+04 Apr 2022 19:16:15,587 INFO  festival.persistence.LocationsDataBaseRepository 21 <init> - Initializing LocationsDataBaseRepository with properties: {festival.jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, festival.jdbc.driver=org.sqlite.JDBC, festival.server.port=7899} 
+04 Apr 2022 19:16:15,587 INFO  festival.persistence.ShowsDataBaseRepository 21 <init> - Initializing ShowsDataBaseRepository with properties: {festival.jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, festival.jdbc.driver=org.sqlite.JDBC, festival.server.port=7899} 
+04 Apr 2022 19:16:15,587 INFO  festival.persistence.TicketsDataBaseRepository 23 <init> - Initializing TicketsDataBaseRepository with properties: {festival.jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, festival.jdbc.driver=org.sqlite.JDBC, festival.server.port=7899} 
+04 Apr 2022 19:16:59,506 TRACE festival.persistence.EmployeesDataBaseRepository 109 findOneEmployee - Enter
+04 Apr 2022 19:16:59,507 TRACE festival.persistence.JdbcUtils 45 getConnection - Enter
+04 Apr 2022 19:16:59,508 TRACE festival.persistence.JdbcUtils 23 getNewConnection - Enter
+04 Apr 2022 19:16:59,508 INFO  festival.persistence.JdbcUtils 27 getNewConnection - trying to connect to database ... null
+04 Apr 2022 19:16:59,508 INFO  festival.persistence.JdbcUtils 28 getNewConnection - user: null
+04 Apr 2022 19:16:59,508 INFO  festival.persistence.JdbcUtils 29 getNewConnection - pass: null
+04 Apr 2022 19:16:59,511 ERROR festival.persistence.JdbcUtils 38 getNewConnection - java.sql.SQLException: The url cannot be null
+04 Apr 2022 19:16:59,512 TRACE festival.persistence.JdbcUtils 40 getNewConnection - Exit
+04 Apr 2022 19:16:59,512 TRACE festival.persistence.JdbcUtils 52 getConnection - Exit
+04 Apr 2022 19:25:54,654 INFO  festival.persistence.EmployeesDataBaseRepository 22 <init> - Initializing EmployeesDataBaseRepository with properties: {festival.jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, festival.jdbc.driver=org.sqlite.JDBC, festival.server.port=7899} 
+04 Apr 2022 19:25:54,654 INFO  festival.persistence.LocationsDataBaseRepository 21 <init> - Initializing LocationsDataBaseRepository with properties: {festival.jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, festival.jdbc.driver=org.sqlite.JDBC, festival.server.port=7899} 
+04 Apr 2022 19:25:54,654 INFO  festival.persistence.ShowsDataBaseRepository 21 <init> - Initializing ShowsDataBaseRepository with properties: {festival.jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, festival.jdbc.driver=org.sqlite.JDBC, festival.server.port=7899} 
+04 Apr 2022 19:25:54,654 INFO  festival.persistence.TicketsDataBaseRepository 23 <init> - Initializing TicketsDataBaseRepository with properties: {festival.jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, festival.jdbc.driver=org.sqlite.JDBC, festival.server.port=7899} 
+04 Apr 2022 19:26:34,107 INFO  festival.persistence.EmployeesDataBaseRepository 22 <init> - Initializing EmployeesDataBaseRepository with properties: {festival.jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, festival.jdbc.driver=org.sqlite.JDBC, festival.server.port=7899} 
+04 Apr 2022 19:26:34,107 INFO  festival.persistence.LocationsDataBaseRepository 21 <init> - Initializing LocationsDataBaseRepository with properties: {festival.jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, festival.jdbc.driver=org.sqlite.JDBC, festival.server.port=7899} 
+04 Apr 2022 19:26:34,122 INFO  festival.persistence.ShowsDataBaseRepository 21 <init> - Initializing ShowsDataBaseRepository with properties: {festival.jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, festival.jdbc.driver=org.sqlite.JDBC, festival.server.port=7899} 
+04 Apr 2022 19:26:34,122 INFO  festival.persistence.TicketsDataBaseRepository 23 <init> - Initializing TicketsDataBaseRepository with properties: {festival.jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, festival.jdbc.driver=org.sqlite.JDBC, festival.server.port=7899} 
+04 Apr 2022 19:26:48,454 TRACE festival.persistence.EmployeesDataBaseRepository 109 findOneEmployee - Enter
+04 Apr 2022 19:26:48,455 TRACE festival.persistence.JdbcUtils 45 getConnection - Enter
+04 Apr 2022 19:26:48,456 TRACE festival.persistence.JdbcUtils 23 getNewConnection - Enter
+04 Apr 2022 19:26:48,456 INFO  festival.persistence.JdbcUtils 27 getNewConnection - trying to connect to database ... null
+04 Apr 2022 19:26:48,456 INFO  festival.persistence.JdbcUtils 28 getNewConnection - user: null
+04 Apr 2022 19:26:48,457 INFO  festival.persistence.JdbcUtils 29 getNewConnection - pass: null
+04 Apr 2022 19:26:48,459 ERROR festival.persistence.JdbcUtils 38 getNewConnection - java.sql.SQLException: The url cannot be null
+04 Apr 2022 19:26:48,460 TRACE festival.persistence.JdbcUtils 40 getNewConnection - Exit
+04 Apr 2022 19:26:48,461 TRACE festival.persistence.JdbcUtils 52 getConnection - Exit
+04 Apr 2022 19:38:20,128 INFO  festival.persistence.EmployeesDataBaseRepository 22 <init> - Initializing EmployeesDataBaseRepository with properties: {festival.jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivSalDB, festival.jdbc.driver=org.sqlite.JDBC, festival.server.port=7899} 
+04 Apr 2022 19:38:20,128 INFO  festival.persistence.LocationsDataBaseRepository 21 <init> - Initializing LocationsDataBaseRepository with properties: {festival.jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivSalDB, festival.jdbc.driver=org.sqlite.JDBC, festival.server.port=7899} 
+04 Apr 2022 19:38:20,128 INFO  festival.persistence.ShowsDataBaseRepository 21 <init> - Initializing ShowsDataBaseRepository with properties: {festival.jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivSalDB, festival.jdbc.driver=org.sqlite.JDBC, festival.server.port=7899} 
+04 Apr 2022 19:38:20,128 INFO  festival.persistence.TicketsDataBaseRepository 23 <init> - Initializing TicketsDataBaseRepository with properties: {festival.jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivSalDB, festival.jdbc.driver=org.sqlite.JDBC, festival.server.port=7899} 
+04 Apr 2022 19:50:38,224 INFO  festival.persistence.EmployeesDataBaseRepository 22 <init> - Initializing EmployeesDataBaseRepository with properties: {festival.jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivSalDB, festival.jdbc.driver=org.sqlite.JDBC, festival.server.port=7899} 
+04 Apr 2022 19:50:38,240 INFO  festival.persistence.LocationsDataBaseRepository 21 <init> - Initializing LocationsDataBaseRepository with properties: {festival.jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivSalDB, festival.jdbc.driver=org.sqlite.JDBC, festival.server.port=7899} 
+04 Apr 2022 19:50:38,246 INFO  festival.persistence.ShowsDataBaseRepository 21 <init> - Initializing ShowsDataBaseRepository with properties: {festival.jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivSalDB, festival.jdbc.driver=org.sqlite.JDBC, festival.server.port=7899} 
+04 Apr 2022 19:50:38,246 INFO  festival.persistence.TicketsDataBaseRepository 23 <init> - Initializing TicketsDataBaseRepository with properties: {festival.jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivSalDB, festival.jdbc.driver=org.sqlite.JDBC, festival.server.port=7899} 
+04 Apr 2022 19:50:52,818 TRACE festival.persistence.EmployeesDataBaseRepository 109 findOneEmployee - Enter
+04 Apr 2022 19:54:06,897 INFO  festival.persistence.EmployeesDataBaseRepository 22 <init> - Initializing EmployeesDataBaseRepository with properties: {festival.jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivSalDB, festival.jdbc.driver=org.sqlite.JDBC, festival.server.port=7899} 
+04 Apr 2022 19:54:06,897 INFO  festival.persistence.LocationsDataBaseRepository 21 <init> - Initializing LocationsDataBaseRepository with properties: {festival.jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivSalDB, festival.jdbc.driver=org.sqlite.JDBC, festival.server.port=7899} 
+04 Apr 2022 19:54:06,897 INFO  festival.persistence.ShowsDataBaseRepository 21 <init> - Initializing ShowsDataBaseRepository with properties: {festival.jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivSalDB, festival.jdbc.driver=org.sqlite.JDBC, festival.server.port=7899} 
+04 Apr 2022 19:54:06,905 INFO  festival.persistence.TicketsDataBaseRepository 23 <init> - Initializing TicketsDataBaseRepository with properties: {festival.jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivSalDB, festival.jdbc.driver=org.sqlite.JDBC, festival.server.port=7899} 
+04 Apr 2022 19:54:34,347 TRACE festival.persistence.EmployeesDataBaseRepository 109 findOneEmployee - Enter
+04 Apr 2022 20:13:41,864 INFO  festival.persistence.EmployeesDataBaseRepository 22 <init> - Initializing EmployeesDataBaseRepository with properties: {festival.jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivSalDB, festival.jdbc.driver=org.sqlite.JDBC, festival.server.port=7899} 
+04 Apr 2022 20:13:41,869 INFO  festival.persistence.LocationsDataBaseRepository 21 <init> - Initializing LocationsDataBaseRepository with properties: {festival.jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivSalDB, festival.jdbc.driver=org.sqlite.JDBC, festival.server.port=7899} 
+04 Apr 2022 20:13:41,870 INFO  festival.persistence.ShowsDataBaseRepository 21 <init> - Initializing ShowsDataBaseRepository with properties: {festival.jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivSalDB, festival.jdbc.driver=org.sqlite.JDBC, festival.server.port=7899} 
+04 Apr 2022 20:13:41,871 INFO  festival.persistence.TicketsDataBaseRepository 23 <init> - Initializing TicketsDataBaseRepository with properties: {festival.jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivSalDB, festival.jdbc.driver=org.sqlite.JDBC, festival.server.port=7899} 
+04 Apr 2022 20:13:58,580 TRACE festival.persistence.EmployeesDataBaseRepository 109 findOneEmployee - Enter
+04 Apr 2022 20:13:59,632 ERROR festival.persistence.EmployeesDataBaseRepository 126 findOneEmployee - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: Employees)
+04 Apr 2022 20:13:59,633 TRACE festival.persistence.EmployeesDataBaseRepository 129 findOneEmployee - Exit
+04 Apr 2022 20:25:17,371 INFO  festival.persistence.EmployeesDataBaseRepository 22 <init> - Initializing EmployeesDataBaseRepository with properties: {festival.server.port=7899, jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivSalDB, jdbc.driver=org.sqlite.JDBC} 
+04 Apr 2022 20:25:17,375 INFO  festival.persistence.LocationsDataBaseRepository 21 <init> - Initializing LocationsDataBaseRepository with properties: {festival.server.port=7899, jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivSalDB, jdbc.driver=org.sqlite.JDBC} 
+04 Apr 2022 20:25:17,376 INFO  festival.persistence.ShowsDataBaseRepository 21 <init> - Initializing ShowsDataBaseRepository with properties: {festival.server.port=7899, jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivSalDB, jdbc.driver=org.sqlite.JDBC} 
+04 Apr 2022 20:25:17,377 INFO  festival.persistence.TicketsDataBaseRepository 23 <init> - Initializing TicketsDataBaseRepository with properties: {festival.server.port=7899, jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivSalDB, jdbc.driver=org.sqlite.JDBC} 
+04 Apr 2022 20:25:31,200 TRACE festival.persistence.EmployeesDataBaseRepository 109 findOneEmployee - Enter
+04 Apr 2022 20:25:31,486 ERROR festival.persistence.EmployeesDataBaseRepository 126 findOneEmployee - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: Employees)
+04 Apr 2022 20:25:31,487 TRACE festival.persistence.EmployeesDataBaseRepository 129 findOneEmployee - Exit
+04 Apr 2022 20:25:31,690 TRACE festival.persistence.EmployeesDataBaseRepository 109 findOneEmployee - Enter
+04 Apr 2022 20:25:31,692 ERROR festival.persistence.EmployeesDataBaseRepository 126 findOneEmployee - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: Employees)
+04 Apr 2022 20:25:31,693 TRACE festival.persistence.EmployeesDataBaseRepository 129 findOneEmployee - Exit
+04 Apr 2022 20:26:38,796 INFO  festival.persistence.EmployeesDataBaseRepository 22 <init> - Initializing EmployeesDataBaseRepository with properties: {festival.server.port=7899, jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, jdbc.driver=org.sqlite.JDBC} 
+04 Apr 2022 20:26:38,801 INFO  festival.persistence.LocationsDataBaseRepository 21 <init> - Initializing LocationsDataBaseRepository with properties: {festival.server.port=7899, jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, jdbc.driver=org.sqlite.JDBC} 
+04 Apr 2022 20:26:38,802 INFO  festival.persistence.ShowsDataBaseRepository 21 <init> - Initializing ShowsDataBaseRepository with properties: {festival.server.port=7899, jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, jdbc.driver=org.sqlite.JDBC} 
+04 Apr 2022 20:26:38,803 INFO  festival.persistence.TicketsDataBaseRepository 23 <init> - Initializing TicketsDataBaseRepository with properties: {festival.server.port=7899, jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, jdbc.driver=org.sqlite.JDBC} 
+04 Apr 2022 20:26:54,931 TRACE festival.persistence.EmployeesDataBaseRepository 109 findOneEmployee - Enter
+04 Apr 2022 20:26:55,127 TRACE festival.persistence.EmployeesDataBaseRepository 129 findOneEmployee - Exit
+04 Apr 2022 20:27:04,657 TRACE festival.persistence.EmployeesDataBaseRepository 109 findOneEmployee - Enter
+04 Apr 2022 20:27:04,658 TRACE festival.persistence.EmployeesDataBaseRepository 129 findOneEmployee - Exit
+04 Apr 2022 20:27:24,503 INFO  festival.persistence.EmployeesDataBaseRepository 22 <init> - Initializing EmployeesDataBaseRepository with properties: {festival.server.port=7899, jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, jdbc.driver=org.sqlite.JDBC} 
+04 Apr 2022 20:27:24,509 INFO  festival.persistence.LocationsDataBaseRepository 21 <init> - Initializing LocationsDataBaseRepository with properties: {festival.server.port=7899, jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, jdbc.driver=org.sqlite.JDBC} 
+04 Apr 2022 20:27:24,510 INFO  festival.persistence.ShowsDataBaseRepository 21 <init> - Initializing ShowsDataBaseRepository with properties: {festival.server.port=7899, jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, jdbc.driver=org.sqlite.JDBC} 
+04 Apr 2022 20:27:24,511 INFO  festival.persistence.TicketsDataBaseRepository 23 <init> - Initializing TicketsDataBaseRepository with properties: {festival.server.port=7899, jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, jdbc.driver=org.sqlite.JDBC} 
+04 Apr 2022 20:27:30,936 TRACE festival.persistence.EmployeesDataBaseRepository 109 findOneEmployee - Enter
+04 Apr 2022 20:27:31,109 TRACE festival.persistence.EmployeesDataBaseRepository 129 findOneEmployee - Exit
+04 Apr 2022 20:31:12,491 INFO  festival.persistence.EmployeesDataBaseRepository 22 <init> - Initializing EmployeesDataBaseRepository with properties: {festival.server.port=7899, jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, jdbc.driver=org.sqlite.JDBC} 
+04 Apr 2022 20:31:12,495 INFO  festival.persistence.LocationsDataBaseRepository 21 <init> - Initializing LocationsDataBaseRepository with properties: {festival.server.port=7899, jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, jdbc.driver=org.sqlite.JDBC} 
+04 Apr 2022 20:31:12,497 INFO  festival.persistence.ShowsDataBaseRepository 21 <init> - Initializing ShowsDataBaseRepository with properties: {festival.server.port=7899, jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, jdbc.driver=org.sqlite.JDBC} 
+04 Apr 2022 20:31:12,497 INFO  festival.persistence.TicketsDataBaseRepository 23 <init> - Initializing TicketsDataBaseRepository with properties: {festival.server.port=7899, jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, jdbc.driver=org.sqlite.JDBC} 
+04 Apr 2022 20:31:58,683 TRACE festival.persistence.EmployeesDataBaseRepository 109 findOneEmployee - Enter
+04 Apr 2022 20:31:58,916 TRACE festival.persistence.EmployeesDataBaseRepository 129 findOneEmployee - Exit
+04 Apr 2022 20:32:04,476 TRACE festival.persistence.EmployeesDataBaseRepository 109 findOneEmployee - Enter
+04 Apr 2022 20:32:04,477 TRACE festival.persistence.EmployeesDataBaseRepository 129 findOneEmployee - Exit
+04 Apr 2022 20:40:08,750 INFO  festival.persistence.EmployeesDataBaseRepository 22 <init> - Initializing EmployeesDataBaseRepository with properties: {festival.server.port=7899, jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, jdbc.driver=org.sqlite.JDBC} 
+04 Apr 2022 20:40:08,750 INFO  festival.persistence.LocationsDataBaseRepository 21 <init> - Initializing LocationsDataBaseRepository with properties: {festival.server.port=7899, jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, jdbc.driver=org.sqlite.JDBC} 
+04 Apr 2022 20:40:08,750 INFO  festival.persistence.ShowsDataBaseRepository 21 <init> - Initializing ShowsDataBaseRepository with properties: {festival.server.port=7899, jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, jdbc.driver=org.sqlite.JDBC} 
+04 Apr 2022 20:40:08,750 INFO  festival.persistence.TicketsDataBaseRepository 23 <init> - Initializing TicketsDataBaseRepository with properties: {festival.server.port=7899, jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, jdbc.driver=org.sqlite.JDBC} 
+04 Apr 2022 20:41:26,382 TRACE festival.persistence.EmployeesDataBaseRepository 109 findOneEmployee - Enter
+04 Apr 2022 20:41:26,626 TRACE festival.persistence.EmployeesDataBaseRepository 129 findOneEmployee - Exit
+04 Apr 2022 20:41:43,480 TRACE festival.persistence.EmployeesDataBaseRepository 109 findOneEmployee - Enter
+04 Apr 2022 20:41:43,481 TRACE festival.persistence.EmployeesDataBaseRepository 129 findOneEmployee - Exit
+04 Apr 2022 20:42:18,097 TRACE festival.persistence.EmployeesDataBaseRepository 109 findOneEmployee - Enter
+04 Apr 2022 20:42:18,098 TRACE festival.persistence.EmployeesDataBaseRepository 129 findOneEmployee - Exit
+04 Apr 2022 21:03:20,733 INFO  festival.persistence.EmployeesDataBaseRepository 22 <init> - Initializing EmployeesDataBaseRepository with properties: {festival.server.port=7899, jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, jdbc.driver=org.sqlite.JDBC} 
+04 Apr 2022 21:03:20,733 INFO  festival.persistence.LocationsDataBaseRepository 21 <init> - Initializing LocationsDataBaseRepository with properties: {festival.server.port=7899, jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, jdbc.driver=org.sqlite.JDBC} 
+04 Apr 2022 21:03:20,733 INFO  festival.persistence.ShowsDataBaseRepository 21 <init> - Initializing ShowsDataBaseRepository with properties: {festival.server.port=7899, jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, jdbc.driver=org.sqlite.JDBC} 
+04 Apr 2022 21:03:20,733 INFO  festival.persistence.TicketsDataBaseRepository 23 <init> - Initializing TicketsDataBaseRepository with properties: {festival.server.port=7899, jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, jdbc.driver=org.sqlite.JDBC} 
+04 Apr 2022 21:03:47,572 TRACE festival.persistence.EmployeesDataBaseRepository 109 findOneEmployee - Enter
+04 Apr 2022 21:03:47,833 TRACE festival.persistence.EmployeesDataBaseRepository 129 findOneEmployee - Exit
+04 Apr 2022 21:26:51,874 INFO  festival.persistence.EmployeesDataBaseRepository 22 <init> - Initializing EmployeesDataBaseRepository with properties: {festival.server.port=7899, jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, jdbc.driver=org.sqlite.JDBC} 
+04 Apr 2022 21:26:51,879 INFO  festival.persistence.LocationsDataBaseRepository 21 <init> - Initializing LocationsDataBaseRepository with properties: {festival.server.port=7899, jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, jdbc.driver=org.sqlite.JDBC} 
+04 Apr 2022 21:26:51,880 INFO  festival.persistence.ShowsDataBaseRepository 21 <init> - Initializing ShowsDataBaseRepository with properties: {festival.server.port=7899, jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, jdbc.driver=org.sqlite.JDBC} 
+04 Apr 2022 21:26:51,881 INFO  festival.persistence.TicketsDataBaseRepository 23 <init> - Initializing TicketsDataBaseRepository with properties: {festival.server.port=7899, jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, jdbc.driver=org.sqlite.JDBC} 
+04 Apr 2022 21:28:16,337 INFO  festival.persistence.EmployeesDataBaseRepository 22 <init> - Initializing EmployeesDataBaseRepository with properties: {festival.server.port=7899, jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, jdbc.driver=org.sqlite.JDBC} 
+04 Apr 2022 21:28:16,342 INFO  festival.persistence.LocationsDataBaseRepository 21 <init> - Initializing LocationsDataBaseRepository with properties: {festival.server.port=7899, jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, jdbc.driver=org.sqlite.JDBC} 
+04 Apr 2022 21:28:16,343 INFO  festival.persistence.ShowsDataBaseRepository 21 <init> - Initializing ShowsDataBaseRepository with properties: {festival.server.port=7899, jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, jdbc.driver=org.sqlite.JDBC} 
+04 Apr 2022 21:28:16,344 INFO  festival.persistence.TicketsDataBaseRepository 23 <init> - Initializing TicketsDataBaseRepository with properties: {festival.server.port=7899, jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, jdbc.driver=org.sqlite.JDBC} 
+04 Apr 2022 21:28:33,530 TRACE festival.persistence.EmployeesDataBaseRepository 109 findOneEmployee - Enter
+04 Apr 2022 21:28:33,746 TRACE festival.persistence.EmployeesDataBaseRepository 129 findOneEmployee - Exit
+04 Apr 2022 21:28:34,752 TRACE festival.persistence.ShowsDataBaseRepository 115 findAllArtists - Enter
+04 Apr 2022 21:28:34,753 TRACE festival.persistence.ShowsDataBaseRepository 132 findAllArtists - Exit
+04 Apr 2022 21:53:00,568 INFO  festival.persistence.EmployeesDataBaseRepository 22 <init> - Initializing EmployeesDataBaseRepository with properties: {festival.server.port=7899, jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, jdbc.driver=org.sqlite.JDBC} 
+04 Apr 2022 21:53:00,572 INFO  festival.persistence.LocationsDataBaseRepository 21 <init> - Initializing LocationsDataBaseRepository with properties: {festival.server.port=7899, jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, jdbc.driver=org.sqlite.JDBC} 
+04 Apr 2022 21:53:00,573 INFO  festival.persistence.ShowsDataBaseRepository 21 <init> - Initializing ShowsDataBaseRepository with properties: {festival.server.port=7899, jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, jdbc.driver=org.sqlite.JDBC} 
+04 Apr 2022 21:53:00,575 INFO  festival.persistence.TicketsDataBaseRepository 23 <init> - Initializing TicketsDataBaseRepository with properties: {festival.server.port=7899, jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, jdbc.driver=org.sqlite.JDBC} 
+04 Apr 2022 21:54:58,551 INFO  festival.persistence.EmployeesDataBaseRepository 22 <init> - Initializing EmployeesDataBaseRepository with properties: {festival.server.port=7899, jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, jdbc.driver=org.sqlite.JDBC} 
+04 Apr 2022 21:54:58,555 INFO  festival.persistence.LocationsDataBaseRepository 21 <init> - Initializing LocationsDataBaseRepository with properties: {festival.server.port=7899, jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, jdbc.driver=org.sqlite.JDBC} 
+04 Apr 2022 21:54:58,557 INFO  festival.persistence.ShowsDataBaseRepository 21 <init> - Initializing ShowsDataBaseRepository with properties: {festival.server.port=7899, jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, jdbc.driver=org.sqlite.JDBC} 
+04 Apr 2022 21:54:58,558 INFO  festival.persistence.TicketsDataBaseRepository 23 <init> - Initializing TicketsDataBaseRepository with properties: {festival.server.port=7899, jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, jdbc.driver=org.sqlite.JDBC} 
+04 Apr 2022 21:55:17,211 TRACE festival.persistence.EmployeesDataBaseRepository 109 findOneEmployee - Enter
+04 Apr 2022 21:55:17,407 TRACE festival.persistence.EmployeesDataBaseRepository 129 findOneEmployee - Exit
+04 Apr 2022 21:55:18,420 TRACE festival.persistence.ShowsDataBaseRepository 115 findAllArtists - Enter
+04 Apr 2022 21:55:18,421 TRACE festival.persistence.ShowsDataBaseRepository 132 findAllArtists - Exit
+04 Apr 2022 21:55:19,427 TRACE festival.persistence.ShowsDataBaseRepository 138 findAllArtistShows - Enter
+04 Apr 2022 21:55:19,428 TRACE festival.persistence.ShowsDataBaseRepository 166 findAllArtistShows - Exit
+04 Apr 2022 21:55:28,636 TRACE festival.persistence.ShowsDataBaseRepository 138 findAllArtistShows - Enter
+04 Apr 2022 21:55:28,636 TRACE festival.persistence.ShowsDataBaseRepository 166 findAllArtistShows - Exit
+04 Apr 2022 21:55:29,638 TRACE festival.persistence.ShowsDataBaseRepository 138 findAllArtistShows - Enter
+04 Apr 2022 21:55:29,639 TRACE festival.persistence.ShowsDataBaseRepository 166 findAllArtistShows - Exit
+04 Apr 2022 21:55:35,715 TRACE festival.persistence.ShowsDataBaseRepository 138 findAllArtistShows - Enter
+04 Apr 2022 21:55:35,716 TRACE festival.persistence.ShowsDataBaseRepository 166 findAllArtistShows - Exit
+04 Apr 2022 21:55:38,743 TRACE festival.persistence.ShowsDataBaseRepository 138 findAllArtistShows - Enter
+04 Apr 2022 21:55:38,743 TRACE festival.persistence.ShowsDataBaseRepository 166 findAllArtistShows - Exit
+04 Apr 2022 21:56:49,111 INFO  festival.persistence.EmployeesDataBaseRepository 22 <init> - Initializing EmployeesDataBaseRepository with properties: {festival.server.port=7899, jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, jdbc.driver=org.sqlite.JDBC} 
+04 Apr 2022 21:56:49,115 INFO  festival.persistence.LocationsDataBaseRepository 21 <init> - Initializing LocationsDataBaseRepository with properties: {festival.server.port=7899, jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, jdbc.driver=org.sqlite.JDBC} 
+04 Apr 2022 21:56:49,117 INFO  festival.persistence.ShowsDataBaseRepository 21 <init> - Initializing ShowsDataBaseRepository with properties: {festival.server.port=7899, jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, jdbc.driver=org.sqlite.JDBC} 
+04 Apr 2022 21:56:49,119 INFO  festival.persistence.TicketsDataBaseRepository 23 <init> - Initializing TicketsDataBaseRepository with properties: {festival.server.port=7899, jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, jdbc.driver=org.sqlite.JDBC} 
+04 Apr 2022 21:57:06,829 TRACE festival.persistence.EmployeesDataBaseRepository 109 findOneEmployee - Enter
+04 Apr 2022 21:57:06,996 TRACE festival.persistence.EmployeesDataBaseRepository 129 findOneEmployee - Exit
+04 Apr 2022 21:57:08,013 TRACE festival.persistence.ShowsDataBaseRepository 115 findAllArtists - Enter
+04 Apr 2022 21:57:08,014 TRACE festival.persistence.ShowsDataBaseRepository 132 findAllArtists - Exit
+04 Apr 2022 21:57:09,030 TRACE festival.persistence.ShowsDataBaseRepository 138 findAllArtistShows - Enter
+04 Apr 2022 21:57:09,032 TRACE festival.persistence.ShowsDataBaseRepository 166 findAllArtistShows - Exit
+04 Apr 2022 21:57:10,964 TRACE festival.persistence.ShowsDataBaseRepository 138 findAllArtistShows - Enter
+04 Apr 2022 21:57:10,965 TRACE festival.persistence.ShowsDataBaseRepository 166 findAllArtistShows - Exit
+04 Apr 2022 21:57:11,968 TRACE festival.persistence.ShowsDataBaseRepository 138 findAllArtistShows - Enter
+04 Apr 2022 21:57:11,969 TRACE festival.persistence.ShowsDataBaseRepository 166 findAllArtistShows - Exit
+04 Apr 2022 21:57:12,978 TRACE festival.persistence.ShowsDataBaseRepository 138 findAllArtistShows - Enter
+04 Apr 2022 21:57:12,978 TRACE festival.persistence.ShowsDataBaseRepository 166 findAllArtistShows - Exit
+04 Apr 2022 21:57:13,992 TRACE festival.persistence.ShowsDataBaseRepository 138 findAllArtistShows - Enter
+04 Apr 2022 21:57:13,992 TRACE festival.persistence.ShowsDataBaseRepository 166 findAllArtistShows - Exit
+04 Apr 2022 22:14:37,441 INFO  festival.persistence.EmployeesDataBaseRepository 22 <init> - Initializing EmployeesDataBaseRepository with properties: {festival.server.port=7899, jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, jdbc.driver=org.sqlite.JDBC} 
+04 Apr 2022 22:14:37,446 INFO  festival.persistence.LocationsDataBaseRepository 21 <init> - Initializing LocationsDataBaseRepository with properties: {festival.server.port=7899, jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, jdbc.driver=org.sqlite.JDBC} 
+04 Apr 2022 22:14:37,448 INFO  festival.persistence.ShowsDataBaseRepository 21 <init> - Initializing ShowsDataBaseRepository with properties: {festival.server.port=7899, jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, jdbc.driver=org.sqlite.JDBC} 
+04 Apr 2022 22:14:37,450 INFO  festival.persistence.TicketsDataBaseRepository 23 <init> - Initializing TicketsDataBaseRepository with properties: {festival.server.port=7899, jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, jdbc.driver=org.sqlite.JDBC} 
+04 Apr 2022 22:14:57,990 TRACE festival.persistence.EmployeesDataBaseRepository 109 findOneEmployee - Enter
+04 Apr 2022 22:14:58,172 TRACE festival.persistence.EmployeesDataBaseRepository 129 findOneEmployee - Exit
+04 Apr 2022 22:14:59,190 TRACE festival.persistence.ShowsDataBaseRepository 115 findAllArtists - Enter
+04 Apr 2022 22:14:59,191 TRACE festival.persistence.ShowsDataBaseRepository 132 findAllArtists - Exit
+04 Apr 2022 22:15:00,203 TRACE festival.persistence.ShowsDataBaseRepository 138 findAllArtistShows - Enter
+04 Apr 2022 22:15:00,206 TRACE festival.persistence.ShowsDataBaseRepository 166 findAllArtistShows - Exit
+04 Apr 2022 22:15:01,992 TRACE festival.persistence.ShowsDataBaseRepository 138 findAllArtistShows - Enter
+04 Apr 2022 22:15:01,993 TRACE festival.persistence.ShowsDataBaseRepository 166 findAllArtistShows - Exit
+04 Apr 2022 22:15:03,003 TRACE festival.persistence.ShowsDataBaseRepository 138 findAllArtistShows - Enter
+04 Apr 2022 22:15:03,004 TRACE festival.persistence.ShowsDataBaseRepository 166 findAllArtistShows - Exit
+04 Apr 2022 22:15:13,426 TRACE festival.persistence.ShowsDataBaseRepository 172 findAllArtistShowsInADay - Enter
+04 Apr 2022 22:15:13,427 TRACE festival.persistence.ShowsDataBaseRepository 201 findAllArtistShowsInADay - Exit
+04 Apr 2022 22:28:14,296 INFO  festival.persistence.EmployeesDataBaseRepository 22 <init> - Initializing EmployeesDataBaseRepository with properties: {festival.server.port=7899, jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, jdbc.driver=org.sqlite.JDBC} 
+04 Apr 2022 22:28:14,301 INFO  festival.persistence.LocationsDataBaseRepository 21 <init> - Initializing LocationsDataBaseRepository with properties: {festival.server.port=7899, jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, jdbc.driver=org.sqlite.JDBC} 
+04 Apr 2022 22:28:14,303 INFO  festival.persistence.ShowsDataBaseRepository 21 <init> - Initializing ShowsDataBaseRepository with properties: {festival.server.port=7899, jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, jdbc.driver=org.sqlite.JDBC} 
+04 Apr 2022 22:28:14,305 INFO  festival.persistence.TicketsDataBaseRepository 23 <init> - Initializing TicketsDataBaseRepository with properties: {festival.server.port=7899, jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, jdbc.driver=org.sqlite.JDBC} 
+04 Apr 2022 22:28:49,521 TRACE festival.persistence.EmployeesDataBaseRepository 109 findOneEmployee - Enter
+04 Apr 2022 22:28:49,744 TRACE festival.persistence.EmployeesDataBaseRepository 129 findOneEmployee - Exit
+04 Apr 2022 22:28:50,757 TRACE festival.persistence.ShowsDataBaseRepository 115 findAllArtists - Enter
+04 Apr 2022 22:28:50,758 TRACE festival.persistence.ShowsDataBaseRepository 132 findAllArtists - Exit
+04 Apr 2022 22:28:51,770 TRACE festival.persistence.ShowsDataBaseRepository 138 findAllArtistShows - Enter
+04 Apr 2022 22:28:51,776 TRACE festival.persistence.ShowsDataBaseRepository 166 findAllArtistShows - Exit
+04 Apr 2022 22:29:18,321 TRACE festival.persistence.ShowsDataBaseRepository 47 update - Enter Updating show with Delia
+11/06/2022 11:39
+U.K., London
+04 Apr 2022 22:29:18,326 TRACE festival.persistence.ShowsDataBaseRepository 59 update - Update 1 instance
+04 Apr 2022 22:29:18,326 TRACE festival.persistence.ShowsDataBaseRepository 64 update - Exit
+04 Apr 2022 22:29:18,332 TRACE festival.persistence.TicketsDataBaseRepository 29 add - Enter Saving ticket Ticket{id=null, buyerName='Marco Reus', seats=6, show=Delia
+11/06/2022 11:39
+U.K., London}
+04 Apr 2022 22:29:18,346 TRACE festival.persistence.TicketsDataBaseRepository 37 add - Saved 1 instance
+04 Apr 2022 22:29:18,346 TRACE festival.persistence.TicketsDataBaseRepository 42 add - Exit
+04 Apr 2022 22:29:19,359 TRACE festival.persistence.ShowsDataBaseRepository 138 findAllArtistShows - Enter
+04 Apr 2022 22:29:19,360 TRACE festival.persistence.ShowsDataBaseRepository 166 findAllArtistShows - Exit
+04 Apr 2022 22:32:48,804 INFO  festival.persistence.EmployeesDataBaseRepository 22 <init> - Initializing EmployeesDataBaseRepository with properties: {festival.server.port=7899, jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, jdbc.driver=org.sqlite.JDBC} 
+04 Apr 2022 22:32:48,808 INFO  festival.persistence.LocationsDataBaseRepository 21 <init> - Initializing LocationsDataBaseRepository with properties: {festival.server.port=7899, jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, jdbc.driver=org.sqlite.JDBC} 
+04 Apr 2022 22:32:48,809 INFO  festival.persistence.ShowsDataBaseRepository 21 <init> - Initializing ShowsDataBaseRepository with properties: {festival.server.port=7899, jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, jdbc.driver=org.sqlite.JDBC} 
+04 Apr 2022 22:32:48,810 INFO  festival.persistence.TicketsDataBaseRepository 23 <init> - Initializing TicketsDataBaseRepository with properties: {festival.server.port=7899, jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, jdbc.driver=org.sqlite.JDBC} 
+04 Apr 2022 22:33:18,705 TRACE festival.persistence.EmployeesDataBaseRepository 109 findOneEmployee - Enter
+04 Apr 2022 22:33:18,962 TRACE festival.persistence.EmployeesDataBaseRepository 129 findOneEmployee - Exit
+04 Apr 2022 22:33:19,971 TRACE festival.persistence.ShowsDataBaseRepository 115 findAllArtists - Enter
+04 Apr 2022 22:33:19,972 TRACE festival.persistence.ShowsDataBaseRepository 132 findAllArtists - Exit
+04 Apr 2022 22:33:20,989 TRACE festival.persistence.ShowsDataBaseRepository 138 findAllArtistShows - Enter
+04 Apr 2022 22:33:20,992 TRACE festival.persistence.ShowsDataBaseRepository 166 findAllArtistShows - Exit
+04 Apr 2022 22:33:40,127 TRACE festival.persistence.EmployeesDataBaseRepository 109 findOneEmployee - Enter
+04 Apr 2022 22:33:40,128 TRACE festival.persistence.EmployeesDataBaseRepository 129 findOneEmployee - Exit
+04 Apr 2022 22:33:41,144 TRACE festival.persistence.ShowsDataBaseRepository 115 findAllArtists - Enter
+04 Apr 2022 22:33:41,145 TRACE festival.persistence.ShowsDataBaseRepository 132 findAllArtists - Exit
+04 Apr 2022 22:33:42,153 TRACE festival.persistence.ShowsDataBaseRepository 138 findAllArtistShows - Enter
+04 Apr 2022 22:33:42,154 TRACE festival.persistence.ShowsDataBaseRepository 166 findAllArtistShows - Exit
+04 Apr 2022 22:33:58,711 TRACE festival.persistence.ShowsDataBaseRepository 47 update - Enter Updating show with Delia
+11/06/2022 11:39
+U.K., London
+04 Apr 2022 22:33:58,720 TRACE festival.persistence.ShowsDataBaseRepository 59 update - Update 1 instance
+04 Apr 2022 22:33:58,721 TRACE festival.persistence.ShowsDataBaseRepository 64 update - Exit
+04 Apr 2022 22:33:58,726 TRACE festival.persistence.TicketsDataBaseRepository 29 add - Enter Saving ticket Ticket{id=null, buyerName='Testica Revine', seats=2, show=Delia
+11/06/2022 11:39
+U.K., London}
+04 Apr 2022 22:33:58,730 TRACE festival.persistence.TicketsDataBaseRepository 37 add - Saved 1 instance
+04 Apr 2022 22:33:58,730 TRACE festival.persistence.TicketsDataBaseRepository 42 add - Exit
+04 Apr 2022 22:33:59,736 TRACE festival.persistence.ShowsDataBaseRepository 138 findAllArtistShows - Enter
+04 Apr 2022 22:33:59,737 TRACE festival.persistence.ShowsDataBaseRepository 166 findAllArtistShows - Exit
+04 Apr 2022 22:34:06,817 TRACE festival.persistence.ShowsDataBaseRepository 138 findAllArtistShows - Enter
+04 Apr 2022 22:34:06,818 TRACE festival.persistence.ShowsDataBaseRepository 166 findAllArtistShows - Exit
+04 Apr 2022 22:34:07,827 TRACE festival.persistence.ShowsDataBaseRepository 138 findAllArtistShows - Enter
+04 Apr 2022 22:34:07,828 TRACE festival.persistence.ShowsDataBaseRepository 166 findAllArtistShows - Exit
+04 Apr 2022 22:37:59,752 INFO  festival.persistence.EmployeesDataBaseRepository 22 <init> - Initializing EmployeesDataBaseRepository with properties: {festival.server.port=7899, jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, jdbc.driver=org.sqlite.JDBC} 
+04 Apr 2022 22:37:59,756 INFO  festival.persistence.LocationsDataBaseRepository 21 <init> - Initializing LocationsDataBaseRepository with properties: {festival.server.port=7899, jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, jdbc.driver=org.sqlite.JDBC} 
+04 Apr 2022 22:37:59,757 INFO  festival.persistence.ShowsDataBaseRepository 21 <init> - Initializing ShowsDataBaseRepository with properties: {festival.server.port=7899, jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, jdbc.driver=org.sqlite.JDBC} 
+04 Apr 2022 22:37:59,758 INFO  festival.persistence.TicketsDataBaseRepository 23 <init> - Initializing TicketsDataBaseRepository with properties: {festival.server.port=7899, jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, jdbc.driver=org.sqlite.JDBC} 
+04 Apr 2022 22:38:30,461 TRACE festival.persistence.EmployeesDataBaseRepository 109 findOneEmployee - Enter
+04 Apr 2022 22:38:30,638 TRACE festival.persistence.EmployeesDataBaseRepository 129 findOneEmployee - Exit
+04 Apr 2022 22:38:31,646 TRACE festival.persistence.ShowsDataBaseRepository 115 findAllArtists - Enter
+04 Apr 2022 22:38:31,647 TRACE festival.persistence.ShowsDataBaseRepository 132 findAllArtists - Exit
+04 Apr 2022 22:38:32,656 TRACE festival.persistence.ShowsDataBaseRepository 138 findAllArtistShows - Enter
+04 Apr 2022 22:38:32,659 TRACE festival.persistence.ShowsDataBaseRepository 166 findAllArtistShows - Exit
+04 Apr 2022 22:38:56,064 TRACE festival.persistence.EmployeesDataBaseRepository 109 findOneEmployee - Enter
+04 Apr 2022 22:38:56,065 TRACE festival.persistence.EmployeesDataBaseRepository 129 findOneEmployee - Exit
+04 Apr 2022 22:38:57,069 TRACE festival.persistence.ShowsDataBaseRepository 115 findAllArtists - Enter
+04 Apr 2022 22:38:57,070 TRACE festival.persistence.ShowsDataBaseRepository 132 findAllArtists - Exit
+04 Apr 2022 22:38:58,081 TRACE festival.persistence.ShowsDataBaseRepository 138 findAllArtistShows - Enter
+04 Apr 2022 22:38:58,082 TRACE festival.persistence.ShowsDataBaseRepository 166 findAllArtistShows - Exit
+04 Apr 2022 22:39:10,006 TRACE festival.persistence.ShowsDataBaseRepository 47 update - Enter Updating show with Delia
+11/06/2022 11:39
+U.K., London
+04 Apr 2022 22:39:10,018 TRACE festival.persistence.ShowsDataBaseRepository 59 update - Update 1 instance
+04 Apr 2022 22:39:10,018 TRACE festival.persistence.ShowsDataBaseRepository 64 update - Exit
+04 Apr 2022 22:39:10,025 TRACE festival.persistence.TicketsDataBaseRepository 29 add - Enter Saving ticket Ticket{id=null, buyerName='Cineva Secret', seats=2, show=Delia
+11/06/2022 11:39
+U.K., London}
+04 Apr 2022 22:39:10,028 TRACE festival.persistence.TicketsDataBaseRepository 37 add - Saved 1 instance
+04 Apr 2022 22:39:10,029 TRACE festival.persistence.TicketsDataBaseRepository 42 add - Exit
+04 Apr 2022 22:39:11,038 TRACE festival.persistence.ShowsDataBaseRepository 138 findAllArtistShows - Enter
+04 Apr 2022 22:39:11,039 TRACE festival.persistence.ShowsDataBaseRepository 166 findAllArtistShows - Exit
+04 Apr 2022 22:39:18,531 TRACE festival.persistence.ShowsDataBaseRepository 138 findAllArtistShows - Enter
+04 Apr 2022 22:39:18,531 TRACE festival.persistence.ShowsDataBaseRepository 166 findAllArtistShows - Exit
+04 Apr 2022 22:39:20,996 TRACE festival.persistence.ShowsDataBaseRepository 138 findAllArtistShows - Enter
+04 Apr 2022 22:39:20,997 TRACE festival.persistence.ShowsDataBaseRepository 166 findAllArtistShows - Exit
+04 Apr 2022 22:39:22,001 TRACE festival.persistence.ShowsDataBaseRepository 138 findAllArtistShows - Enter
+04 Apr 2022 22:39:22,002 TRACE festival.persistence.ShowsDataBaseRepository 166 findAllArtistShows - Exit
+04 Apr 2022 22:47:37,520 INFO  festival.persistence.EmployeesDataBaseRepository 22 <init> - Initializing EmployeesDataBaseRepository with properties: {festival.server.port=7899, jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, jdbc.driver=org.sqlite.JDBC} 
+04 Apr 2022 22:47:37,524 INFO  festival.persistence.LocationsDataBaseRepository 21 <init> - Initializing LocationsDataBaseRepository with properties: {festival.server.port=7899, jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, jdbc.driver=org.sqlite.JDBC} 
+04 Apr 2022 22:47:37,525 INFO  festival.persistence.ShowsDataBaseRepository 21 <init> - Initializing ShowsDataBaseRepository with properties: {festival.server.port=7899, jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, jdbc.driver=org.sqlite.JDBC} 
+04 Apr 2022 22:47:37,526 INFO  festival.persistence.TicketsDataBaseRepository 23 <init> - Initializing TicketsDataBaseRepository with properties: {festival.server.port=7899, jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, jdbc.driver=org.sqlite.JDBC} 
+04 Apr 2022 22:48:08,225 TRACE festival.persistence.EmployeesDataBaseRepository 109 findOneEmployee - Enter
+04 Apr 2022 22:48:08,400 TRACE festival.persistence.EmployeesDataBaseRepository 129 findOneEmployee - Exit
+04 Apr 2022 22:48:09,416 TRACE festival.persistence.ShowsDataBaseRepository 115 findAllArtists - Enter
+04 Apr 2022 22:48:09,417 TRACE festival.persistence.ShowsDataBaseRepository 132 findAllArtists - Exit
+04 Apr 2022 22:48:10,429 TRACE festival.persistence.ShowsDataBaseRepository 138 findAllArtistShows - Enter
+04 Apr 2022 22:48:10,432 TRACE festival.persistence.ShowsDataBaseRepository 166 findAllArtistShows - Exit
+04 Apr 2022 22:48:18,440 TRACE festival.persistence.EmployeesDataBaseRepository 109 findOneEmployee - Enter
+04 Apr 2022 22:48:18,442 TRACE festival.persistence.EmployeesDataBaseRepository 129 findOneEmployee - Exit
+04 Apr 2022 22:48:19,452 TRACE festival.persistence.ShowsDataBaseRepository 115 findAllArtists - Enter
+04 Apr 2022 22:48:19,453 TRACE festival.persistence.ShowsDataBaseRepository 132 findAllArtists - Exit
+04 Apr 2022 22:48:20,466 TRACE festival.persistence.ShowsDataBaseRepository 138 findAllArtistShows - Enter
+04 Apr 2022 22:48:20,467 TRACE festival.persistence.ShowsDataBaseRepository 166 findAllArtistShows - Exit
+04 Apr 2022 22:48:31,434 TRACE festival.persistence.ShowsDataBaseRepository 47 update - Enter Updating show with Delia
+11/06/2022 11:39
+U.K., London
+04 Apr 2022 22:48:31,446 TRACE festival.persistence.ShowsDataBaseRepository 59 update - Update 1 instance
+04 Apr 2022 22:48:31,447 TRACE festival.persistence.ShowsDataBaseRepository 64 update - Exit
+04 Apr 2022 22:48:31,452 TRACE festival.persistence.TicketsDataBaseRepository 29 add - Enter Saving ticket Ticket{id=null, buyerName='Cineva', seats=1, show=Delia
+11/06/2022 11:39
+U.K., London}
+04 Apr 2022 22:48:31,462 TRACE festival.persistence.TicketsDataBaseRepository 37 add - Saved 1 instance
+04 Apr 2022 22:48:31,463 TRACE festival.persistence.TicketsDataBaseRepository 42 add - Exit
+04 Apr 2022 22:48:32,469 TRACE festival.persistence.ShowsDataBaseRepository 138 findAllArtistShows - Enter
+04 Apr 2022 22:48:32,470 TRACE festival.persistence.ShowsDataBaseRepository 166 findAllArtistShows - Exit
+04 Apr 2022 22:50:38,817 TRACE festival.persistence.ShowsDataBaseRepository 138 findAllArtistShows - Enter
+04 Apr 2022 22:50:38,817 TRACE festival.persistence.ShowsDataBaseRepository 166 findAllArtistShows - Exit
+04 Apr 2022 22:50:39,820 TRACE festival.persistence.ShowsDataBaseRepository 138 findAllArtistShows - Enter
+04 Apr 2022 22:50:39,821 TRACE festival.persistence.ShowsDataBaseRepository 166 findAllArtistShows - Exit
+04 Apr 2022 23:01:04,718 INFO  festival.persistence.EmployeesDataBaseRepository 22 <init> - Initializing EmployeesDataBaseRepository with properties: {festival.server.port=7899, jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, jdbc.driver=org.sqlite.JDBC} 
+04 Apr 2022 23:01:04,734 INFO  festival.persistence.LocationsDataBaseRepository 21 <init> - Initializing LocationsDataBaseRepository with properties: {festival.server.port=7899, jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, jdbc.driver=org.sqlite.JDBC} 
+04 Apr 2022 23:01:04,734 INFO  festival.persistence.ShowsDataBaseRepository 21 <init> - Initializing ShowsDataBaseRepository with properties: {festival.server.port=7899, jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, jdbc.driver=org.sqlite.JDBC} 
+04 Apr 2022 23:01:04,734 INFO  festival.persistence.TicketsDataBaseRepository 23 <init> - Initializing TicketsDataBaseRepository with properties: {festival.server.port=7899, jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, jdbc.driver=org.sqlite.JDBC} 
+04 Apr 2022 23:01:40,647 TRACE festival.persistence.EmployeesDataBaseRepository 109 findOneEmployee - Enter
+04 Apr 2022 23:01:41,333 TRACE festival.persistence.EmployeesDataBaseRepository 129 findOneEmployee - Exit
+04 Apr 2022 23:01:46,280 TRACE festival.persistence.EmployeesDataBaseRepository 109 findOneEmployee - Enter
+04 Apr 2022 23:01:46,282 TRACE festival.persistence.EmployeesDataBaseRepository 129 findOneEmployee - Exit
+04 Apr 2022 23:01:47,295 TRACE festival.persistence.ShowsDataBaseRepository 115 findAllArtists - Enter
+04 Apr 2022 23:01:47,296 TRACE festival.persistence.ShowsDataBaseRepository 132 findAllArtists - Exit
+04 Apr 2022 23:01:48,309 TRACE festival.persistence.ShowsDataBaseRepository 138 findAllArtistShows - Enter
+04 Apr 2022 23:01:48,312 TRACE festival.persistence.ShowsDataBaseRepository 166 findAllArtistShows - Exit
+04 Apr 2022 23:02:04,933 TRACE festival.persistence.EmployeesDataBaseRepository 109 findOneEmployee - Enter
+04 Apr 2022 23:02:04,934 TRACE festival.persistence.EmployeesDataBaseRepository 129 findOneEmployee - Exit
+04 Apr 2022 23:02:05,948 TRACE festival.persistence.ShowsDataBaseRepository 115 findAllArtists - Enter
+04 Apr 2022 23:02:05,949 TRACE festival.persistence.ShowsDataBaseRepository 132 findAllArtists - Exit
+04 Apr 2022 23:02:06,957 TRACE festival.persistence.ShowsDataBaseRepository 138 findAllArtistShows - Enter
+04 Apr 2022 23:02:06,958 TRACE festival.persistence.ShowsDataBaseRepository 166 findAllArtistShows - Exit
+04 Apr 2022 23:02:30,317 TRACE festival.persistence.ShowsDataBaseRepository 47 update - Enter Updating show with Delia
+11/06/2022 11:39
+U.K., London
+04 Apr 2022 23:02:30,327 TRACE festival.persistence.ShowsDataBaseRepository 59 update - Update 1 instance
+04 Apr 2022 23:02:30,327 TRACE festival.persistence.ShowsDataBaseRepository 64 update - Exit
+04 Apr 2022 23:02:30,333 TRACE festival.persistence.TicketsDataBaseRepository 29 add - Enter Saving ticket Ticket{id=null, buyerName='Tanti Nuti', seats=5, show=Delia
+11/06/2022 11:39
+U.K., London}
+04 Apr 2022 23:02:30,337 TRACE festival.persistence.TicketsDataBaseRepository 37 add - Saved 1 instance
+04 Apr 2022 23:02:30,337 TRACE festival.persistence.TicketsDataBaseRepository 42 add - Exit
+04 Apr 2022 23:02:30,357 TRACE festival.persistence.ShowsDataBaseRepository 138 findAllArtistShows - Enter
+04 Apr 2022 23:02:30,358 TRACE festival.persistence.ShowsDataBaseRepository 166 findAllArtistShows - Exit
+04 Apr 2022 23:02:31,347 TRACE festival.persistence.ShowsDataBaseRepository 138 findAllArtistShows - Enter
+04 Apr 2022 23:02:31,348 TRACE festival.persistence.ShowsDataBaseRepository 166 findAllArtistShows - Exit
+04 Apr 2022 23:02:32,359 TRACE festival.persistence.ShowsDataBaseRepository 138 findAllArtistShows - Enter
+04 Apr 2022 23:02:32,360 TRACE festival.persistence.ShowsDataBaseRepository 166 findAllArtistShows - Exit
+04 Apr 2022 23:04:54,372 INFO  festival.persistence.EmployeesDataBaseRepository 22 <init> - Initializing EmployeesDataBaseRepository with properties: {festival.server.port=7899, jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, jdbc.driver=org.sqlite.JDBC} 
+04 Apr 2022 23:04:54,372 INFO  festival.persistence.LocationsDataBaseRepository 21 <init> - Initializing LocationsDataBaseRepository with properties: {festival.server.port=7899, jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, jdbc.driver=org.sqlite.JDBC} 
+04 Apr 2022 23:04:54,372 INFO  festival.persistence.ShowsDataBaseRepository 21 <init> - Initializing ShowsDataBaseRepository with properties: {festival.server.port=7899, jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, jdbc.driver=org.sqlite.JDBC} 
+04 Apr 2022 23:04:54,372 INFO  festival.persistence.TicketsDataBaseRepository 23 <init> - Initializing TicketsDataBaseRepository with properties: {festival.server.port=7899, jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, jdbc.driver=org.sqlite.JDBC} 
+04 Apr 2022 23:05:17,317 TRACE festival.persistence.EmployeesDataBaseRepository 109 findOneEmployee - Enter
+04 Apr 2022 23:05:17,530 TRACE festival.persistence.EmployeesDataBaseRepository 129 findOneEmployee - Exit
+04 Apr 2022 23:05:28,456 TRACE festival.persistence.EmployeesDataBaseRepository 109 findOneEmployee - Enter
+04 Apr 2022 23:05:28,457 TRACE festival.persistence.EmployeesDataBaseRepository 129 findOneEmployee - Exit
+04 Apr 2022 23:05:29,465 TRACE festival.persistence.ShowsDataBaseRepository 115 findAllArtists - Enter
+04 Apr 2022 23:05:29,466 TRACE festival.persistence.ShowsDataBaseRepository 132 findAllArtists - Exit
+04 Apr 2022 23:05:30,477 TRACE festival.persistence.ShowsDataBaseRepository 138 findAllArtistShows - Enter
+04 Apr 2022 23:05:30,483 TRACE festival.persistence.ShowsDataBaseRepository 166 findAllArtistShows - Exit
+04 Apr 2022 23:05:35,874 TRACE festival.persistence.ShowsDataBaseRepository 138 findAllArtistShows - Enter
+04 Apr 2022 23:05:35,875 TRACE festival.persistence.ShowsDataBaseRepository 166 findAllArtistShows - Exit
+04 Apr 2022 23:05:36,891 TRACE festival.persistence.ShowsDataBaseRepository 138 findAllArtistShows - Enter
+04 Apr 2022 23:05:36,892 TRACE festival.persistence.ShowsDataBaseRepository 166 findAllArtistShows - Exit
+04 Apr 2022 23:05:37,906 TRACE festival.persistence.ShowsDataBaseRepository 138 findAllArtistShows - Enter
+04 Apr 2022 23:05:37,906 TRACE festival.persistence.ShowsDataBaseRepository 166 findAllArtistShows - Exit
+04 Apr 2022 23:05:51,169 TRACE festival.persistence.ShowsDataBaseRepository 172 findAllArtistShowsInADay - Enter
+04 Apr 2022 23:05:51,170 TRACE festival.persistence.ShowsDataBaseRepository 201 findAllArtistShowsInADay - Exit
+04 Apr 2022 23:05:53,208 TRACE festival.persistence.ShowsDataBaseRepository 172 findAllArtistShowsInADay - Enter
+04 Apr 2022 23:05:53,209 TRACE festival.persistence.ShowsDataBaseRepository 201 findAllArtistShowsInADay - Exit
+04 Apr 2022 23:05:54,670 TRACE festival.persistence.ShowsDataBaseRepository 172 findAllArtistShowsInADay - Enter
+04 Apr 2022 23:05:54,670 TRACE festival.persistence.ShowsDataBaseRepository 201 findAllArtistShowsInADay - Exit
+04 Apr 2022 23:05:56,632 TRACE festival.persistence.ShowsDataBaseRepository 172 findAllArtistShowsInADay - Enter
+04 Apr 2022 23:05:56,632 TRACE festival.persistence.ShowsDataBaseRepository 201 findAllArtistShowsInADay - Exit
+04 Apr 2022 23:05:58,344 TRACE festival.persistence.ShowsDataBaseRepository 172 findAllArtistShowsInADay - Enter
+04 Apr 2022 23:05:58,345 TRACE festival.persistence.ShowsDataBaseRepository 201 findAllArtistShowsInADay - Exit
+04 Apr 2022 23:05:59,574 TRACE festival.persistence.ShowsDataBaseRepository 172 findAllArtistShowsInADay - Enter
+04 Apr 2022 23:05:59,575 TRACE festival.persistence.ShowsDataBaseRepository 201 findAllArtistShowsInADay - Exit
+04 Apr 2022 23:06:09,682 TRACE festival.persistence.ShowsDataBaseRepository 47 update - Enter Updating show with Martin Garrix
+19/11/2022 23:30
+Spain, Barcelona
+04 Apr 2022 23:06:09,689 TRACE festival.persistence.ShowsDataBaseRepository 59 update - Update 1 instance
+04 Apr 2022 23:06:09,689 TRACE festival.persistence.ShowsDataBaseRepository 64 update - Exit
+04 Apr 2022 23:06:09,694 TRACE festival.persistence.TicketsDataBaseRepository 29 add - Enter Saving ticket Ticket{id=null, buyerName='Raducu', seats=10, show=Martin Garrix
+19/11/2022 23:30
+Spain, Barcelona}
+04 Apr 2022 23:06:09,698 TRACE festival.persistence.TicketsDataBaseRepository 37 add - Saved 1 instance
+04 Apr 2022 23:06:09,698 TRACE festival.persistence.TicketsDataBaseRepository 42 add - Exit
+04 Apr 2022 23:06:10,704 TRACE festival.persistence.ShowsDataBaseRepository 138 findAllArtistShows - Enter
+04 Apr 2022 23:06:10,705 TRACE festival.persistence.ShowsDataBaseRepository 166 findAllArtistShows - Exit
+04 Apr 2022 23:06:11,720 TRACE festival.persistence.ShowsDataBaseRepository 138 findAllArtistShows - Enter
+04 Apr 2022 23:06:11,721 TRACE festival.persistence.ShowsDataBaseRepository 166 findAllArtistShows - Exit
+04 Apr 2022 23:07:28,310 TRACE festival.persistence.EmployeesDataBaseRepository 109 findOneEmployee - Enter
+04 Apr 2022 23:07:28,312 TRACE festival.persistence.EmployeesDataBaseRepository 129 findOneEmployee - Exit
+04 Apr 2022 23:07:29,323 TRACE festival.persistence.ShowsDataBaseRepository 115 findAllArtists - Enter
+04 Apr 2022 23:07:29,324 TRACE festival.persistence.ShowsDataBaseRepository 132 findAllArtists - Exit
+04 Apr 2022 23:07:30,336 TRACE festival.persistence.ShowsDataBaseRepository 138 findAllArtistShows - Enter
+04 Apr 2022 23:07:30,337 TRACE festival.persistence.ShowsDataBaseRepository 166 findAllArtistShows - Exit
+04 Apr 2022 23:07:32,037 TRACE festival.persistence.ShowsDataBaseRepository 138 findAllArtistShows - Enter
+04 Apr 2022 23:07:32,037 TRACE festival.persistence.ShowsDataBaseRepository 166 findAllArtistShows - Exit
+04 Apr 2022 23:07:33,449 TRACE festival.persistence.ShowsDataBaseRepository 138 findAllArtistShows - Enter
+04 Apr 2022 23:07:33,450 TRACE festival.persistence.ShowsDataBaseRepository 166 findAllArtistShows - Exit
+04 Apr 2022 23:07:48,105 TRACE festival.persistence.ShowsDataBaseRepository 47 update - Enter Updating show with Shakira
+11/11/2022 21:40
+Spain, Barcelona
+04 Apr 2022 23:07:48,116 TRACE festival.persistence.ShowsDataBaseRepository 59 update - Update 1 instance
+04 Apr 2022 23:07:48,117 TRACE festival.persistence.ShowsDataBaseRepository 64 update - Exit
+04 Apr 2022 23:07:48,117 TRACE festival.persistence.TicketsDataBaseRepository 29 add - Enter Saving ticket Ticket{id=null, buyerName='NENE Bogat', seats=100000, show=Shakira
+11/11/2022 21:40
+Spain, Barcelona}
+04 Apr 2022 23:07:48,124 TRACE festival.persistence.TicketsDataBaseRepository 37 add - Saved 1 instance
+04 Apr 2022 23:07:48,125 TRACE festival.persistence.TicketsDataBaseRepository 42 add - Exit
+04 Apr 2022 23:07:49,139 TRACE festival.persistence.ShowsDataBaseRepository 138 findAllArtistShows - Enter
+04 Apr 2022 23:07:49,140 TRACE festival.persistence.ShowsDataBaseRepository 166 findAllArtistShows - Exit
+04 Apr 2022 23:07:50,149 TRACE festival.persistence.ShowsDataBaseRepository 138 findAllArtistShows - Enter
+04 Apr 2022 23:07:50,150 TRACE festival.persistence.ShowsDataBaseRepository 166 findAllArtistShows - Exit
+04 Apr 2022 23:08:05,281 TRACE festival.persistence.ShowsDataBaseRepository 47 update - Enter Updating show with Shakira
+11/11/2022 21:40
+Spain, Barcelona
+04 Apr 2022 23:08:05,285 TRACE festival.persistence.ShowsDataBaseRepository 59 update - Update 1 instance
+04 Apr 2022 23:08:05,285 TRACE festival.persistence.ShowsDataBaseRepository 64 update - Exit
+04 Apr 2022 23:08:05,286 TRACE festival.persistence.TicketsDataBaseRepository 29 add - Enter Saving ticket Ticket{id=null, buyerName='Acelasi nene bogat', seats=100000, show=Shakira
+11/11/2022 21:40
+Spain, Barcelona}
+04 Apr 2022 23:08:05,289 TRACE festival.persistence.TicketsDataBaseRepository 37 add - Saved 1 instance
+04 Apr 2022 23:08:05,289 TRACE festival.persistence.TicketsDataBaseRepository 42 add - Exit
+04 Apr 2022 23:08:06,302 TRACE festival.persistence.ShowsDataBaseRepository 138 findAllArtistShows - Enter
+04 Apr 2022 23:08:06,303 TRACE festival.persistence.ShowsDataBaseRepository 166 findAllArtistShows - Exit
+04 Apr 2022 23:08:07,317 TRACE festival.persistence.ShowsDataBaseRepository 138 findAllArtistShows - Enter
+04 Apr 2022 23:08:07,318 TRACE festival.persistence.ShowsDataBaseRepository 166 findAllArtistShows - Exit
+04 Apr 2022 23:08:24,492 TRACE festival.persistence.ShowsDataBaseRepository 47 update - Enter Updating show with Shakira
+11/11/2022 21:40
+Spain, Barcelona
+04 Apr 2022 23:08:24,496 TRACE festival.persistence.ShowsDataBaseRepository 59 update - Update 1 instance
+04 Apr 2022 23:08:24,496 TRACE festival.persistence.ShowsDataBaseRepository 64 update - Exit
+04 Apr 2022 23:08:24,497 TRACE festival.persistence.TicketsDataBaseRepository 29 add - Enter Saving ticket Ticket{id=null, buyerName='Un nene nu chiar asa bogat', seats=50000, show=Shakira
+11/11/2022 21:40
+Spain, Barcelona}
+04 Apr 2022 23:08:24,505 TRACE festival.persistence.TicketsDataBaseRepository 37 add - Saved 1 instance
+04 Apr 2022 23:08:24,505 TRACE festival.persistence.TicketsDataBaseRepository 42 add - Exit
+04 Apr 2022 23:08:25,512 TRACE festival.persistence.ShowsDataBaseRepository 138 findAllArtistShows - Enter
+04 Apr 2022 23:08:25,513 TRACE festival.persistence.ShowsDataBaseRepository 166 findAllArtistShows - Exit
+04 Apr 2022 23:08:26,520 TRACE festival.persistence.ShowsDataBaseRepository 138 findAllArtistShows - Enter
+04 Apr 2022 23:08:26,521 TRACE festival.persistence.ShowsDataBaseRepository 166 findAllArtistShows - Exit
+04 Apr 2022 23:08:27,533 TRACE festival.persistence.ShowsDataBaseRepository 138 findAllArtistShows - Enter
+04 Apr 2022 23:08:27,534 TRACE festival.persistence.ShowsDataBaseRepository 166 findAllArtistShows - Exit
+04 Apr 2022 23:08:28,544 TRACE festival.persistence.ShowsDataBaseRepository 138 findAllArtistShows - Enter
+04 Apr 2022 23:08:28,545 TRACE festival.persistence.ShowsDataBaseRepository 166 findAllArtistShows - Exit
+04 Apr 2022 23:08:29,551 TRACE festival.persistence.ShowsDataBaseRepository 138 findAllArtistShows - Enter
+04 Apr 2022 23:08:29,551 TRACE festival.persistence.ShowsDataBaseRepository 166 findAllArtistShows - Exit
+04 Apr 2022 23:08:31,294 TRACE festival.persistence.ShowsDataBaseRepository 138 findAllArtistShows - Enter
+04 Apr 2022 23:08:31,295 TRACE festival.persistence.ShowsDataBaseRepository 166 findAllArtistShows - Exit
+05 Apr 2022 09:28:28,825 INFO  festival.persistence.EmployeesDataBaseRepository 22 <init> - Initializing EmployeesDataBaseRepository with properties: {festival.server.port=7899, jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, jdbc.driver=org.sqlite.JDBC} 
+05 Apr 2022 09:28:28,831 INFO  festival.persistence.LocationsDataBaseRepository 21 <init> - Initializing LocationsDataBaseRepository with properties: {festival.server.port=7899, jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, jdbc.driver=org.sqlite.JDBC} 
+05 Apr 2022 09:28:28,833 INFO  festival.persistence.ShowsDataBaseRepository 21 <init> - Initializing ShowsDataBaseRepository with properties: {festival.server.port=7899, jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, jdbc.driver=org.sqlite.JDBC} 
+05 Apr 2022 09:28:28,834 INFO  festival.persistence.TicketsDataBaseRepository 23 <init> - Initializing TicketsDataBaseRepository with properties: {festival.server.port=7899, jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, jdbc.driver=org.sqlite.JDBC} 
+05 Apr 2022 09:28:47,323 TRACE festival.persistence.EmployeesDataBaseRepository 109 findOneEmployee - Enter
+05 Apr 2022 09:28:47,666 TRACE festival.persistence.EmployeesDataBaseRepository 129 findOneEmployee - Exit
+05 Apr 2022 09:28:48,671 TRACE festival.persistence.ShowsDataBaseRepository 115 findAllArtists - Enter
+05 Apr 2022 09:28:48,673 TRACE festival.persistence.ShowsDataBaseRepository 132 findAllArtists - Exit
+05 Apr 2022 09:28:49,680 TRACE festival.persistence.ShowsDataBaseRepository 138 findAllArtistShows - Enter
+05 Apr 2022 09:28:49,684 TRACE festival.persistence.ShowsDataBaseRepository 166 findAllArtistShows - Exit
+05 Apr 2022 09:29:32,156 TRACE festival.persistence.EmployeesDataBaseRepository 109 findOneEmployee - Enter
+05 Apr 2022 09:29:32,157 TRACE festival.persistence.EmployeesDataBaseRepository 129 findOneEmployee - Exit
+05 Apr 2022 09:33:35,641 INFO  festival.persistence.EmployeesDataBaseRepository 22 <init> - Initializing EmployeesDataBaseRepository with properties: {festival.server.port=7899, jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, jdbc.driver=org.sqlite.JDBC} 
+05 Apr 2022 09:33:35,645 INFO  festival.persistence.LocationsDataBaseRepository 21 <init> - Initializing LocationsDataBaseRepository with properties: {festival.server.port=7899, jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, jdbc.driver=org.sqlite.JDBC} 
+05 Apr 2022 09:33:35,646 INFO  festival.persistence.ShowsDataBaseRepository 21 <init> - Initializing ShowsDataBaseRepository with properties: {festival.server.port=7899, jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, jdbc.driver=org.sqlite.JDBC} 
+05 Apr 2022 09:33:35,647 INFO  festival.persistence.TicketsDataBaseRepository 23 <init> - Initializing TicketsDataBaseRepository with properties: {festival.server.port=7899, jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, jdbc.driver=org.sqlite.JDBC} 
+05 Apr 2022 09:34:04,794 TRACE festival.persistence.EmployeesDataBaseRepository 109 findOneEmployee - Enter
+05 Apr 2022 09:34:04,983 TRACE festival.persistence.EmployeesDataBaseRepository 129 findOneEmployee - Exit
+05 Apr 2022 09:34:05,994 TRACE festival.persistence.ShowsDataBaseRepository 115 findAllArtists - Enter
+05 Apr 2022 09:34:05,995 TRACE festival.persistence.ShowsDataBaseRepository 132 findAllArtists - Exit
+05 Apr 2022 09:34:07,007 TRACE festival.persistence.ShowsDataBaseRepository 138 findAllArtistShows - Enter
+05 Apr 2022 09:34:07,010 TRACE festival.persistence.ShowsDataBaseRepository 166 findAllArtistShows - Exit
+05 Apr 2022 09:36:24,968 INFO  festival.persistence.EmployeesDataBaseRepository 22 <init> - Initializing EmployeesDataBaseRepository with properties: {festival.server.port=7899, jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, jdbc.driver=org.sqlite.JDBC} 
+05 Apr 2022 09:36:24,973 INFO  festival.persistence.LocationsDataBaseRepository 21 <init> - Initializing LocationsDataBaseRepository with properties: {festival.server.port=7899, jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, jdbc.driver=org.sqlite.JDBC} 
+05 Apr 2022 09:36:24,974 INFO  festival.persistence.ShowsDataBaseRepository 21 <init> - Initializing ShowsDataBaseRepository with properties: {festival.server.port=7899, jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, jdbc.driver=org.sqlite.JDBC} 
+05 Apr 2022 09:36:24,975 INFO  festival.persistence.TicketsDataBaseRepository 23 <init> - Initializing TicketsDataBaseRepository with properties: {festival.server.port=7899, jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, jdbc.driver=org.sqlite.JDBC} 
+05 Apr 2022 09:37:11,978 TRACE festival.persistence.EmployeesDataBaseRepository 109 findOneEmployee - Enter
+05 Apr 2022 09:37:12,161 TRACE festival.persistence.EmployeesDataBaseRepository 129 findOneEmployee - Exit
+05 Apr 2022 09:37:13,175 TRACE festival.persistence.ShowsDataBaseRepository 115 findAllArtists - Enter
+05 Apr 2022 09:37:13,176 TRACE festival.persistence.ShowsDataBaseRepository 132 findAllArtists - Exit
+05 Apr 2022 09:37:14,184 TRACE festival.persistence.ShowsDataBaseRepository 138 findAllArtistShows - Enter
+05 Apr 2022 09:37:14,186 TRACE festival.persistence.ShowsDataBaseRepository 166 findAllArtistShows - Exit
+05 Apr 2022 09:37:24,743 TRACE festival.persistence.EmployeesDataBaseRepository 109 findOneEmployee - Enter
+05 Apr 2022 09:37:24,744 TRACE festival.persistence.EmployeesDataBaseRepository 129 findOneEmployee - Exit
+05 Apr 2022 09:37:38,891 TRACE festival.persistence.EmployeesDataBaseRepository 109 findOneEmployee - Enter
+05 Apr 2022 09:37:38,892 TRACE festival.persistence.EmployeesDataBaseRepository 129 findOneEmployee - Exit
+05 Apr 2022 09:37:39,898 TRACE festival.persistence.ShowsDataBaseRepository 115 findAllArtists - Enter
+05 Apr 2022 09:37:39,898 TRACE festival.persistence.ShowsDataBaseRepository 132 findAllArtists - Exit
+05 Apr 2022 09:37:40,907 TRACE festival.persistence.ShowsDataBaseRepository 138 findAllArtistShows - Enter
+05 Apr 2022 09:37:40,908 TRACE festival.persistence.ShowsDataBaseRepository 166 findAllArtistShows - Exit
+05 Apr 2022 09:37:55,485 TRACE festival.persistence.ShowsDataBaseRepository 47 update - Enter Updating show with Delia
+11/06/2022 11:39
+U.K., London
+05 Apr 2022 09:37:55,494 TRACE festival.persistence.ShowsDataBaseRepository 59 update - Update 1 instance
+05 Apr 2022 09:37:55,494 TRACE festival.persistence.ShowsDataBaseRepository 64 update - Exit
+05 Apr 2022 09:37:55,500 TRACE festival.persistence.TicketsDataBaseRepository 29 add - Enter Saving ticket Ticket{id=null, buyerName='Stefan Biholaru', seats=2, show=Delia
+11/06/2022 11:39
+U.K., London}
+05 Apr 2022 09:37:55,504 TRACE festival.persistence.TicketsDataBaseRepository 37 add - Saved 1 instance
+05 Apr 2022 09:37:55,504 TRACE festival.persistence.TicketsDataBaseRepository 42 add - Exit
+05 Apr 2022 09:37:55,525 TRACE festival.persistence.ShowsDataBaseRepository 138 findAllArtistShows - Enter
+05 Apr 2022 09:37:55,526 TRACE festival.persistence.ShowsDataBaseRepository 166 findAllArtistShows - Exit
+05 Apr 2022 09:37:56,506 TRACE festival.persistence.ShowsDataBaseRepository 138 findAllArtistShows - Enter
+05 Apr 2022 09:37:56,507 TRACE festival.persistence.ShowsDataBaseRepository 166 findAllArtistShows - Exit
+05 Apr 2022 09:37:57,515 TRACE festival.persistence.ShowsDataBaseRepository 138 findAllArtistShows - Enter
+05 Apr 2022 09:37:57,516 TRACE festival.persistence.ShowsDataBaseRepository 166 findAllArtistShows - Exit
+05 Apr 2022 09:54:33,992 INFO  festival.persistence.EmployeesDataBaseRepository 22 <init> - Initializing EmployeesDataBaseRepository with properties: {festival.server.port=7899, jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, jdbc.driver=org.sqlite.JDBC} 
+05 Apr 2022 09:54:33,996 INFO  festival.persistence.LocationsDataBaseRepository 21 <init> - Initializing LocationsDataBaseRepository with properties: {festival.server.port=7899, jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, jdbc.driver=org.sqlite.JDBC} 
+05 Apr 2022 09:54:33,997 INFO  festival.persistence.ShowsDataBaseRepository 21 <init> - Initializing ShowsDataBaseRepository with properties: {festival.server.port=7899, jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, jdbc.driver=org.sqlite.JDBC} 
+05 Apr 2022 09:54:33,998 INFO  festival.persistence.TicketsDataBaseRepository 23 <init> - Initializing TicketsDataBaseRepository with properties: {festival.server.port=7899, jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, jdbc.driver=org.sqlite.JDBC} 
+05 Apr 2022 09:56:41,972 INFO  festival.persistence.EmployeesDataBaseRepository 22 <init> - Initializing EmployeesDataBaseRepository with properties: {festival.server.port=7899, jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, jdbc.driver=org.sqlite.JDBC} 
+05 Apr 2022 09:56:41,977 INFO  festival.persistence.LocationsDataBaseRepository 21 <init> - Initializing LocationsDataBaseRepository with properties: {festival.server.port=7899, jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, jdbc.driver=org.sqlite.JDBC} 
+05 Apr 2022 09:56:41,978 INFO  festival.persistence.ShowsDataBaseRepository 21 <init> - Initializing ShowsDataBaseRepository with properties: {festival.server.port=7899, jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, jdbc.driver=org.sqlite.JDBC} 
+05 Apr 2022 09:56:41,979 INFO  festival.persistence.TicketsDataBaseRepository 23 <init> - Initializing TicketsDataBaseRepository with properties: {festival.server.port=7899, jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, jdbc.driver=org.sqlite.JDBC} 
+05 Apr 2022 09:59:44,014 INFO  festival.persistence.EmployeesDataBaseRepository 22 <init> - Initializing EmployeesDataBaseRepository with properties: {festival.server.port=7899, jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, jdbc.driver=org.sqlite.JDBC} 
+05 Apr 2022 09:59:44,018 INFO  festival.persistence.LocationsDataBaseRepository 21 <init> - Initializing LocationsDataBaseRepository with properties: {festival.server.port=7899, jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, jdbc.driver=org.sqlite.JDBC} 
+05 Apr 2022 09:59:44,020 INFO  festival.persistence.ShowsDataBaseRepository 21 <init> - Initializing ShowsDataBaseRepository with properties: {festival.server.port=7899, jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, jdbc.driver=org.sqlite.JDBC} 
+05 Apr 2022 09:59:44,021 INFO  festival.persistence.TicketsDataBaseRepository 23 <init> - Initializing TicketsDataBaseRepository with properties: {festival.server.port=7899, jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, jdbc.driver=org.sqlite.JDBC} 
+05 Apr 2022 10:03:06,400 INFO  festival.persistence.EmployeesDataBaseRepository 22 <init> - Initializing EmployeesDataBaseRepository with properties: {festival.server.port=7899, jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, jdbc.driver=org.sqlite.JDBC} 
+05 Apr 2022 10:03:06,404 INFO  festival.persistence.LocationsDataBaseRepository 21 <init> - Initializing LocationsDataBaseRepository with properties: {festival.server.port=7899, jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, jdbc.driver=org.sqlite.JDBC} 
+05 Apr 2022 10:03:06,405 INFO  festival.persistence.ShowsDataBaseRepository 21 <init> - Initializing ShowsDataBaseRepository with properties: {festival.server.port=7899, jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, jdbc.driver=org.sqlite.JDBC} 
+05 Apr 2022 10:03:06,406 INFO  festival.persistence.TicketsDataBaseRepository 23 <init> - Initializing TicketsDataBaseRepository with properties: {festival.server.port=7899, jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, jdbc.driver=org.sqlite.JDBC} 
+05 Apr 2022 10:06:22,169 INFO  festival.persistence.EmployeesDataBaseRepository 22 <init> - Initializing EmployeesDataBaseRepository with properties: {festival.server.port=7899, jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, jdbc.driver=org.sqlite.JDBC} 
+05 Apr 2022 10:06:22,173 INFO  festival.persistence.LocationsDataBaseRepository 21 <init> - Initializing LocationsDataBaseRepository with properties: {festival.server.port=7899, jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, jdbc.driver=org.sqlite.JDBC} 
+05 Apr 2022 10:06:22,175 INFO  festival.persistence.ShowsDataBaseRepository 21 <init> - Initializing ShowsDataBaseRepository with properties: {festival.server.port=7899, jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, jdbc.driver=org.sqlite.JDBC} 
+05 Apr 2022 10:06:22,176 INFO  festival.persistence.TicketsDataBaseRepository 23 <init> - Initializing TicketsDataBaseRepository with properties: {festival.server.port=7899, jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, jdbc.driver=org.sqlite.JDBC} 
+05 Apr 2022 10:08:31,073 INFO  festival.persistence.EmployeesDataBaseRepository 22 <init> - Initializing EmployeesDataBaseRepository with properties: {festival.server.port=7899, jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, jdbc.driver=org.sqlite.JDBC} 
+05 Apr 2022 10:08:31,077 INFO  festival.persistence.LocationsDataBaseRepository 21 <init> - Initializing LocationsDataBaseRepository with properties: {festival.server.port=7899, jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, jdbc.driver=org.sqlite.JDBC} 
+05 Apr 2022 10:08:31,078 INFO  festival.persistence.ShowsDataBaseRepository 21 <init> - Initializing ShowsDataBaseRepository with properties: {festival.server.port=7899, jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, jdbc.driver=org.sqlite.JDBC} 
+05 Apr 2022 10:08:31,079 INFO  festival.persistence.TicketsDataBaseRepository 23 <init> - Initializing TicketsDataBaseRepository with properties: {festival.server.port=7899, jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, jdbc.driver=org.sqlite.JDBC} 
+05 Apr 2022 10:09:43,519 INFO  festival.persistence.EmployeesDataBaseRepository 22 <init> - Initializing EmployeesDataBaseRepository with properties: {festival.server.port=7899, jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, jdbc.driver=org.sqlite.JDBC} 
+05 Apr 2022 10:09:43,524 INFO  festival.persistence.LocationsDataBaseRepository 21 <init> - Initializing LocationsDataBaseRepository with properties: {festival.server.port=7899, jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, jdbc.driver=org.sqlite.JDBC} 
+05 Apr 2022 10:09:43,526 INFO  festival.persistence.ShowsDataBaseRepository 21 <init> - Initializing ShowsDataBaseRepository with properties: {festival.server.port=7899, jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, jdbc.driver=org.sqlite.JDBC} 
+05 Apr 2022 10:09:43,528 INFO  festival.persistence.TicketsDataBaseRepository 23 <init> - Initializing TicketsDataBaseRepository with properties: {festival.server.port=7899, jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, jdbc.driver=org.sqlite.JDBC} 
+05 Apr 2022 10:10:05,560 TRACE festival.persistence.EmployeesDataBaseRepository 109 findOneEmployee - Enter
+05 Apr 2022 10:10:05,748 TRACE festival.persistence.EmployeesDataBaseRepository 129 findOneEmployee - Exit
+05 Apr 2022 10:10:06,756 TRACE festival.persistence.ShowsDataBaseRepository 115 findAllArtists - Enter
+05 Apr 2022 10:10:06,757 TRACE festival.persistence.ShowsDataBaseRepository 132 findAllArtists - Exit
+05 Apr 2022 10:10:07,762 TRACE festival.persistence.ShowsDataBaseRepository 138 findAllArtistShows - Enter
+05 Apr 2022 10:10:07,765 TRACE festival.persistence.ShowsDataBaseRepository 166 findAllArtistShows - Exit
+05 Apr 2022 10:12:31,911 INFO  festival.persistence.EmployeesDataBaseRepository 22 <init> - Initializing EmployeesDataBaseRepository with properties: {festival.server.port=7899, jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, jdbc.driver=org.sqlite.JDBC} 
+05 Apr 2022 10:12:31,915 INFO  festival.persistence.LocationsDataBaseRepository 21 <init> - Initializing LocationsDataBaseRepository with properties: {festival.server.port=7899, jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, jdbc.driver=org.sqlite.JDBC} 
+05 Apr 2022 10:12:31,916 INFO  festival.persistence.ShowsDataBaseRepository 21 <init> - Initializing ShowsDataBaseRepository with properties: {festival.server.port=7899, jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, jdbc.driver=org.sqlite.JDBC} 
+05 Apr 2022 10:12:31,917 INFO  festival.persistence.TicketsDataBaseRepository 23 <init> - Initializing TicketsDataBaseRepository with properties: {festival.server.port=7899, jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, jdbc.driver=org.sqlite.JDBC} 
+05 Apr 2022 10:12:53,146 TRACE festival.persistence.EmployeesDataBaseRepository 109 findOneEmployee - Enter
+05 Apr 2022 10:12:53,338 TRACE festival.persistence.EmployeesDataBaseRepository 129 findOneEmployee - Exit
+05 Apr 2022 10:12:54,353 TRACE festival.persistence.ShowsDataBaseRepository 115 findAllArtists - Enter
+05 Apr 2022 10:12:54,353 TRACE festival.persistence.ShowsDataBaseRepository 132 findAllArtists - Exit
+05 Apr 2022 10:12:55,368 TRACE festival.persistence.ShowsDataBaseRepository 138 findAllArtistShows - Enter
+05 Apr 2022 10:12:55,371 TRACE festival.persistence.ShowsDataBaseRepository 166 findAllArtistShows - Exit
+05 Apr 2022 10:14:45,804 INFO  festival.persistence.EmployeesDataBaseRepository 22 <init> - Initializing EmployeesDataBaseRepository with properties: {festival.server.port=7899, jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, jdbc.driver=org.sqlite.JDBC} 
+05 Apr 2022 10:14:45,808 INFO  festival.persistence.LocationsDataBaseRepository 21 <init> - Initializing LocationsDataBaseRepository with properties: {festival.server.port=7899, jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, jdbc.driver=org.sqlite.JDBC} 
+05 Apr 2022 10:14:45,810 INFO  festival.persistence.ShowsDataBaseRepository 21 <init> - Initializing ShowsDataBaseRepository with properties: {festival.server.port=7899, jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, jdbc.driver=org.sqlite.JDBC} 
+05 Apr 2022 10:14:45,810 INFO  festival.persistence.TicketsDataBaseRepository 23 <init> - Initializing TicketsDataBaseRepository with properties: {festival.server.port=7899, jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, jdbc.driver=org.sqlite.JDBC} 
+05 Apr 2022 10:15:10,171 TRACE festival.persistence.EmployeesDataBaseRepository 109 findOneEmployee - Enter
+05 Apr 2022 10:15:10,351 TRACE festival.persistence.EmployeesDataBaseRepository 129 findOneEmployee - Exit
+05 Apr 2022 10:15:11,361 TRACE festival.persistence.ShowsDataBaseRepository 115 findAllArtists - Enter
+05 Apr 2022 10:15:11,362 TRACE festival.persistence.ShowsDataBaseRepository 132 findAllArtists - Exit
+05 Apr 2022 10:15:12,377 TRACE festival.persistence.ShowsDataBaseRepository 138 findAllArtistShows - Enter
+05 Apr 2022 10:15:12,380 TRACE festival.persistence.ShowsDataBaseRepository 166 findAllArtistShows - Exit
+05 Apr 2022 10:16:58,240 INFO  festival.persistence.EmployeesDataBaseRepository 22 <init> - Initializing EmployeesDataBaseRepository with properties: {festival.server.port=7899, jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, jdbc.driver=org.sqlite.JDBC} 
+05 Apr 2022 10:16:58,244 INFO  festival.persistence.LocationsDataBaseRepository 21 <init> - Initializing LocationsDataBaseRepository with properties: {festival.server.port=7899, jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, jdbc.driver=org.sqlite.JDBC} 
+05 Apr 2022 10:16:58,245 INFO  festival.persistence.ShowsDataBaseRepository 21 <init> - Initializing ShowsDataBaseRepository with properties: {festival.server.port=7899, jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, jdbc.driver=org.sqlite.JDBC} 
+05 Apr 2022 10:16:58,247 INFO  festival.persistence.TicketsDataBaseRepository 23 <init> - Initializing TicketsDataBaseRepository with properties: {festival.server.port=7899, jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, jdbc.driver=org.sqlite.JDBC} 
+05 Apr 2022 10:17:20,410 TRACE festival.persistence.EmployeesDataBaseRepository 109 findOneEmployee - Enter
+05 Apr 2022 10:17:20,614 TRACE festival.persistence.EmployeesDataBaseRepository 129 findOneEmployee - Exit
+05 Apr 2022 10:17:22,807 TRACE festival.persistence.EmployeesDataBaseRepository 109 findOneEmployee - Enter
+05 Apr 2022 10:17:22,808 TRACE festival.persistence.EmployeesDataBaseRepository 129 findOneEmployee - Exit
+05 Apr 2022 10:17:23,818 TRACE festival.persistence.ShowsDataBaseRepository 115 findAllArtists - Enter
+05 Apr 2022 10:17:23,819 TRACE festival.persistence.ShowsDataBaseRepository 132 findAllArtists - Exit
+05 Apr 2022 10:17:24,832 TRACE festival.persistence.ShowsDataBaseRepository 138 findAllArtistShows - Enter
+05 Apr 2022 10:17:24,835 TRACE festival.persistence.ShowsDataBaseRepository 166 findAllArtistShows - Exit
+05 Apr 2022 10:51:44,211 INFO  festival.persistence.EmployeesDataBaseRepository 22 <init> - Initializing EmployeesDataBaseRepository with properties: {festival.server.port=7899, jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, jdbc.driver=org.sqlite.JDBC} 
+05 Apr 2022 10:51:44,221 INFO  festival.persistence.LocationsDataBaseRepository 21 <init> - Initializing LocationsDataBaseRepository with properties: {festival.server.port=7899, jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, jdbc.driver=org.sqlite.JDBC} 
+05 Apr 2022 10:51:44,222 INFO  festival.persistence.ShowsDataBaseRepository 21 <init> - Initializing ShowsDataBaseRepository with properties: {festival.server.port=7899, jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, jdbc.driver=org.sqlite.JDBC} 
+05 Apr 2022 10:51:44,223 INFO  festival.persistence.TicketsDataBaseRepository 23 <init> - Initializing TicketsDataBaseRepository with properties: {festival.server.port=7899, jdbc.url=jdbc:sqlite:C:\Users\Razvan\IdeaProjects\MPP_P2_FestivalMuzica\FestivalDB, jdbc.driver=org.sqlite.JDBC} 
+05 Apr 2022 10:52:05,492 TRACE festival.persistence.EmployeesDataBaseRepository 109 findOneEmployee - Enter
+05 Apr 2022 10:52:05,690 TRACE festival.persistence.EmployeesDataBaseRepository 129 findOneEmployee - Exit
+05 Apr 2022 10:52:06,698 TRACE festival.persistence.ShowsDataBaseRepository 115 findAllArtists - Enter
+05 Apr 2022 10:52:06,698 TRACE festival.persistence.ShowsDataBaseRepository 132 findAllArtists - Exit
+05 Apr 2022 10:52:07,704 TRACE festival.persistence.ShowsDataBaseRepository 138 findAllArtistShows - Enter
+05 Apr 2022 10:52:07,707 TRACE festival.persistence.ShowsDataBaseRepository 166 findAllArtistShows - Exit
+05 Apr 2022 10:52:37,898 TRACE festival.persistence.EmployeesDataBaseRepository 109 findOneEmployee - Enter
+05 Apr 2022 10:52:37,899 TRACE festival.persistence.EmployeesDataBaseRepository 129 findOneEmployee - Exit
+05 Apr 2022 10:52:38,907 TRACE festival.persistence.ShowsDataBaseRepository 115 findAllArtists - Enter
+05 Apr 2022 10:52:38,908 TRACE festival.persistence.ShowsDataBaseRepository 132 findAllArtists - Exit
+05 Apr 2022 10:52:39,921 TRACE festival.persistence.ShowsDataBaseRepository 138 findAllArtistShows - Enter
+05 Apr 2022 10:52:39,922 TRACE festival.persistence.ShowsDataBaseRepository 166 findAllArtistShows - Exit
+05 Apr 2022 10:52:58,725 TRACE festival.persistence.ShowsDataBaseRepository 47 update - Enter Updating show with Delia
+11/06/2022 11:39
+U.K., London
+05 Apr 2022 10:52:58,735 TRACE festival.persistence.ShowsDataBaseRepository 59 update - Update 1 instance
+05 Apr 2022 10:52:58,735 TRACE festival.persistence.ShowsDataBaseRepository 64 update - Exit
+05 Apr 2022 10:52:58,741 TRACE festival.persistence.TicketsDataBaseRepository 29 add - Enter Saving ticket Ticket{id=null, buyerName='Ana Pop Maria', seats=8, show=Delia
+11/06/2022 11:39
+U.K., London}
+05 Apr 2022 10:52:58,745 TRACE festival.persistence.TicketsDataBaseRepository 37 add - Saved 1 instance
+05 Apr 2022 10:52:58,745 TRACE festival.persistence.TicketsDataBaseRepository 42 add - Exit
+05 Apr 2022 10:52:58,770 TRACE festival.persistence.ShowsDataBaseRepository 138 findAllArtistShows - Enter
+05 Apr 2022 10:52:58,771 TRACE festival.persistence.ShowsDataBaseRepository 166 findAllArtistShows - Exit
+05 Apr 2022 10:52:59,754 TRACE festival.persistence.ShowsDataBaseRepository 138 findAllArtistShows - Enter
+05 Apr 2022 10:52:59,756 TRACE festival.persistence.ShowsDataBaseRepository 166 findAllArtistShows - Exit
+05 Apr 2022 10:53:00,772 TRACE festival.persistence.ShowsDataBaseRepository 138 findAllArtistShows - Enter
+05 Apr 2022 10:53:00,772 TRACE festival.persistence.ShowsDataBaseRepository 166 findAllArtistShows - Exit
+05 Apr 2022 10:53:18,952 TRACE festival.persistence.ShowsDataBaseRepository 47 update - Enter Updating show with Delia
+11/06/2022 11:39
+U.K., London
+05 Apr 2022 10:53:18,966 TRACE festival.persistence.ShowsDataBaseRepository 59 update - Update 1 instance
+05 Apr 2022 10:53:18,966 TRACE festival.persistence.ShowsDataBaseRepository 64 update - Exit
+05 Apr 2022 10:53:18,966 TRACE festival.persistence.TicketsDataBaseRepository 29 add - Enter Saving ticket Ticket{id=null, buyerName='Razvan Berendi', seats=50, show=Delia
+11/06/2022 11:39
+U.K., London}
+05 Apr 2022 10:53:18,973 TRACE festival.persistence.TicketsDataBaseRepository 37 add - Saved 1 instance
+05 Apr 2022 10:53:18,973 TRACE festival.persistence.TicketsDataBaseRepository 42 add - Exit
+05 Apr 2022 10:53:18,977 TRACE festival.persistence.ShowsDataBaseRepository 138 findAllArtistShows - Enter
+05 Apr 2022 10:53:18,978 TRACE festival.persistence.ShowsDataBaseRepository 166 findAllArtistShows - Exit
+05 Apr 2022 10:53:19,988 TRACE festival.persistence.ShowsDataBaseRepository 138 findAllArtistShows - Enter
+05 Apr 2022 10:53:19,990 TRACE festival.persistence.ShowsDataBaseRepository 166 findAllArtistShows - Exit
+05 Apr 2022 10:53:21,003 TRACE festival.persistence.ShowsDataBaseRepository 138 findAllArtistShows - Enter
+05 Apr 2022 10:53:21,005 TRACE festival.persistence.ShowsDataBaseRepository 166 findAllArtistShows - Exit

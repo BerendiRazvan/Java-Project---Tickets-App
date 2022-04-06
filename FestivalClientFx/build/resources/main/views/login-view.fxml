@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="festival.client.LoginController">
+   <children>
+      <Label layoutX="239.0" layoutY="39.0" text="TICKETS APP" underline="true">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="191.0" layoutY="191.0" text="Password">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="191.0" layoutY="122.0" text="Email">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <TextField fx:id="emailTextField" layoutX="191.0" layoutY="140.0" prefHeight="26.0" prefWidth="217.0" />
+      <Button fx:id="loginBtn" layoutX="225.0" layoutY="312.0" mnemonicParsing="false" onAction="#onActionLogInBtn" prefHeight="18.0" prefWidth="147.0" text="LOGIN">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <PasswordField fx:id="passwordTextField" layoutX="191.0" layoutY="209.0" prefHeight="26.0" prefWidth="218.0" />
+      <Label fx:id="errorsLabel" alignment="CENTER" layoutX="1.0" layoutY="236.0" prefHeight="75.0" prefWidth="600.0" text="Errors..." textFill="RED">
+         <font>
+            <Font name="System Italic" size="12.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

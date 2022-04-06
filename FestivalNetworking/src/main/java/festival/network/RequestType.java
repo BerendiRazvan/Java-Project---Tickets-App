@@ -1,0 +1,5 @@
+package festival.network;
+
+public enum RequestType {
+    LOGIN, LOGOUT, GET_ALL_ARTISTS, GET_ALL_ARTISTS_SHOWS, GET_ALL_ARTISTS_SHOWS_DAY, SELL_TICKET, EMPLOYEE
+}
