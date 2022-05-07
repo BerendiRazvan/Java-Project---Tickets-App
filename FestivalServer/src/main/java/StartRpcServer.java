@@ -1,15 +1,46 @@
+import festival.model.Employee;
 import festival.network.utils.AbstractServer;
 import festival.network.utils.FestivalRpcConcurrentServer;
 import festival.network.utils.ServerException;
 import festival.persistence.*;
+import festival.persistence.orm.EmployeesHibernarteRepository;
 import festival.server.FestivalServicesImpl;
 import festival.services.IFestivalServices;
+import org.hibernate.SessionFactory;
+import org.hibernate.boot.MetadataSources;
+import org.hibernate.boot.registry.StandardServiceRegistry;
+import org.hibernate.boot.registry.StandardServiceRegistryBuilder;
+//import org.hibernate.SessionFactory;
+//import org.hibernate.boot.MetadataSources;
+//import org.hibernate.boot.registry.StandardServiceRegistry;
+//import org.hibernate.boot.registry.StandardServiceRegistryBuilder;
 
 import java.io.IOException;
 import java.util.Properties;
 
 public class StartRpcServer {
     private static int defaultPort = 55555;
+    static SessionFactory sessionFactory;
+    static void initialize() {
+        // A SessionFactory is set up once for an application!
+        final StandardServiceRegistry registry = new StandardServiceRegistryBuilder()
+                .configure() // configures settings from hibernate.cfg.xml
+                .build();
+        try {
+            sessionFactory = new MetadataSources( registry ).buildMetadata().buildSessionFactory();
+        }
+        catch (Exception e) {
+            System.err.println("Exception "+e);
+            StandardServiceRegistryBuilder.destroy( registry );
+        }
+    }
+
+    static void close(){
+        if ( sessionFactory != null ) {
+            sessionFactory.close();
+        }
+
+    }
 
     public static void main(String[] args) {
 
@@ -31,7 +62,12 @@ public class StartRpcServer {
         TicketsRepository ticketsRepository = new TicketsDataBaseRepository(serverProps);
 
 
-        IFestivalServices festivalServiceImpl = new FestivalServicesImpl(employeesRepository, showsRepository, ticketsRepository);
+        initialize();
+        EmployeesRepository employeesHibernarteRepository = new EmployeesHibernarteRepository(sessionFactory);
+
+
+        //IFestivalServices festivalServiceImpl = new FestivalServicesImpl(employeesRepository, showsRepository, ticketsRepository);
+        IFestivalServices festivalServiceImpl = new FestivalServicesImpl(employeesHibernarteRepository, showsRepository, ticketsRepository);
 
 
 

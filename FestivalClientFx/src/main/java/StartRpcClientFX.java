@@ -25,17 +25,18 @@ public class StartRpcClientFX extends Application {
             clientProps.load(StartRpcClientFX.class.getResourceAsStream("/festivalclient.properties"));
             System.out.println("Client properties set.");
             clientProps.list(System.out);
-        }catch (IOException e){
+        } catch (IOException e) {
             System.err.println("Cannot find festivalclient.properties " + e);
             return;
         }
+
 
         String serverIP = clientProps.getProperty("festival.server.host", defaultServer);
         int serverPort = defaultTravelPart;
 
         try {
             serverPort = Integer.parseInt(clientProps.getProperty("festival.server.port"));
-        }catch (NumberFormatException ex){
+        } catch (NumberFormatException ex) {
             System.err.println("Wrong port number " + ex.getMessage());
             System.out.println("Using default port: " + defaultTravelPart);
         }

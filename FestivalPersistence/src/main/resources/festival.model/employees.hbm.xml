@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="festival.model">
+    <class name="Employee" table="Employees">
+        <id name="id"  type="java.lang.Long" column="id_employee">
+            <generator class="increment"/>
+        </id>
+        <property
+                name="firstName"
+                type="java.lang.String"
+                column="first_name"
+        />
+        <property
+                name="lastName"
+                type="java.lang.String"
+                column="last_name"
+        />
+        <property
+                name="mail"
+                type="java.lang.String"
+                column="mail"
+        />
+        <property
+                name="password"
+                type="java.lang.String"
+                column="password"
+        />
+
+    </class>
+</hibernate-mapping>

@@ -10,6 +10,8 @@ public class Employee implements Entity<Long>, Serializable {
     private Long id;
 
 
+    public Employee(){}
+
     public Employee(String first_name, String last_name, String mail, String password) {
         this.firstName = first_name;
         this.lastName = last_name;

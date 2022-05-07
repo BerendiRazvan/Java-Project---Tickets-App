@@ -64,12 +64,12 @@ public class HomeController implements IFestivalObserver {
 
 
     public HomeController() {
-        System.out.println("Constructor TravelController");
+        System.out.println("Constructor1 Controller");
     }
 
     public HomeController(IFestivalServices server) {
         this.server = server;
-        System.out.println("constructor TravelController cu server param");
+        System.out.println("Constructor2 Controller cu server param");
         initData();
     }
 
