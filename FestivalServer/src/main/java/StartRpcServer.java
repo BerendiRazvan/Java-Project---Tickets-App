@@ -53,9 +53,9 @@ public class StartRpcServer {
             System.err.println("Cannot find festivalserver.properties " + e);
             return;
         }
-
-        System.out.println(serverProps.toString());
-
+        System.out.println("-------------------------------------------");
+        System.out.println(serverProps);
+        System.out.println("-------------------------------------------");
         EmployeesRepository employeesRepository = new EmployeesDataBaseRepository(serverProps);
         LocationsRepository locationsRepository = new LocationsDataBaseRepository(serverProps);
         ShowsRepository showsRepository = new ShowsDataBaseRepository(serverProps);

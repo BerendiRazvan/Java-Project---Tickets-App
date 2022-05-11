@@ -8,13 +8,6 @@
       <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/../MPP_P2_FestivalMuzica/FestivalDB</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
-    <data-source source="LOCAL" name="FestivalDB [2]" uuid="a67518bc-b125-4cc1-a638-198cebed6f6a">
-      <driver-ref>sqlite.xerial</driver-ref>
-      <synchronize>true</synchronize>
-      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
-      <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/../MPP_P2_FestivalMuzica/FestivalDB</jdbc-url>
-      <working-dir>$ProjectFileDir$</working-dir>
-    </data-source>
     <data-source source="LOCAL" name="FestivalDB2.db" uuid="e933c535-87bb-4f2f-b503-4ff2a2e89ab9">
       <driver-ref>sqlite.xerial</driver-ref>
       <synchronize>true</synchronize>

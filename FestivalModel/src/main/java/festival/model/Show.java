@@ -12,6 +12,8 @@ public class Show implements  Entity<Long>, Serializable {
     private int ticketsSold;
     private Long id;
 
+    public Show(){}
+
     public Show(String artist_name, LocalDateTime dataAndTime, Location location, int tickets_available, int tickets_sold) {
         this.artistName = artist_name;
         this.dataAndTime = dataAndTime;

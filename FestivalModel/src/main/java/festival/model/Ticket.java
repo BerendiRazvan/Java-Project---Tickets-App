@@ -10,6 +10,8 @@ public class Ticket implements Entity<Long>, Serializable {
     private Long id;
 
 
+    public Ticket(){}
+
     public Ticket(String buyerName, int seats, Show show) {
         this.buyerName = buyerName;
         this.seats = seats;

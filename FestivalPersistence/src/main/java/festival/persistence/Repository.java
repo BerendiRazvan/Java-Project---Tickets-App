@@ -5,7 +5,7 @@ public interface Repository<ID, T> {
 
     void update(ID id, T elem);
 
-    void delete(ID id);
+    void delete(ID id) throws Exception;
 
     Iterable<T> findAll();
 }

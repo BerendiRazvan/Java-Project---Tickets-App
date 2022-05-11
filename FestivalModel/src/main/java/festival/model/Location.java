@@ -8,6 +8,8 @@ public class Location implements Entity<Long>, Serializable {
     private String city;
     private Long id;
 
+    public Location(){}
+
     public Location(String country, String city) {
         this.country = country;
         this.city = city;
