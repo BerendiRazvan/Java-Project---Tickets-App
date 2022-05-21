@@ -27,7 +27,7 @@ public class FestivalShowController {
 
     @RequestMapping(method = RequestMethod.GET)
     public List<Show> getAll() {
-        System.out.println("Get all shows ...");
+        System.out.println("Getting all shows ...");
         List<Show> shows = new ArrayList<>();
         for (var s : showsRepository.findAll()) {
             shows.add(s);
@@ -37,6 +37,7 @@ public class FestivalShowController {
 
     @RequestMapping(method = RequestMethod.POST)
     public Show create(@RequestBody Show show) {
+        System.out.println("Creating show ...");
         showsRepository.add(show);
         long max = 0;
         for (var i:showsRepository.findAll())
@@ -55,7 +56,7 @@ public class FestivalShowController {
 
     @RequestMapping(value = "/{id}", method = RequestMethod.DELETE)
     public ResponseEntity<?> delete(@PathVariable Long id) {
-        System.out.println("Deleting show ... " + id);
+        System.out.println("Deleting show with id="+ id+" ... ");
         try {
             showsRepository.delete(id);
             return new ResponseEntity<Show>(HttpStatus.OK);
@@ -71,7 +72,7 @@ public class FestivalShowController {
 
     @RequestMapping(value = "/{id}", method = RequestMethod.GET)
     public ResponseEntity<?> getById(@PathVariable Long id) {
-        System.out.println("Get by id " + id);
+        System.out.println("Getting show with id=" + id + " ... ");
         Show show = null;
         for (var s : showsRepository.findAll()) {
             if (s.getId().equals(id))

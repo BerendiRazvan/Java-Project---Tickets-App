@@ -40,6 +40,7 @@ public class ShowsRepositoryMock implements ShowsRepository {
     @Override
     public void add(Show elem) {
         logger.traceEntry("Saving show {}", elem);
+
         Connection con = dbUtils.getConnection();
         try (PreparedStatement preStmt = con.prepareStatement("insert into Shows (artist_name, date_and_time, tickets_available, tickets_sold, location) values (?, ?, ?, ?, ?)")) {
             preStmt.setString(1, elem.getArtistName());

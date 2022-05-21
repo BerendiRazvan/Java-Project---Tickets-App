@@ -13,15 +13,53 @@ public class StartRestClient {
     private final static ShowsClient SHOWS_CLIENT = new ShowsClient();
 
     public static void main(String[] args) {
-        Show showT = new Show("t1", LocalDateTime.now(), new Location("ro", "cj"), 5, 5);
+        System.out.println("\nJava REST Client started");
+
+        Location lT = new Location("Romania", "Cluj");
+        lT.setId(1L);
+        Show showT = new Show("ShowTestJava", LocalDateTime.now(), lT, 999, 999);
+        showT.setId(0L);
+
         try {
+            System.out.println("\n---------------------------------------------Create---------------------------------------------\n");
+
             show(() -> System.out.println(SHOWS_CLIENT.create(showT)));
+
+            System.out.println("\n---------------------------------------------GetAll---------------------------------------------\n");
+
             show(() -> {
                 Show[] res = SHOWS_CLIENT.getAll();
-                for (Show u : res) {
-                    System.out.println(u.getId() + ": " + u.getArtistName());
+                for (Show s : res) {
+                    System.out.println("\n" + s);
+                    if (showT.getId() < s.getId())
+                        showT.setId(s.getId());
                 }
             });
+
+            System.out.println("\n---------------------------------------------GetById---------------------------------------------\n");
+
+            show(() -> {
+                Show s = SHOWS_CLIENT.getById(showT.getId().toString());
+                System.out.println("\n" + s);
+            });
+
+            System.out.println("\n---------------------------------------------Update---------------------------------------------\n");
+
+            showT.setArtistName("Updated");
+            show(() -> {
+                SHOWS_CLIENT.update(showT);
+            });
+            System.out.println("Event updated");
+
+            System.out.println("\n---------------------------------------------Delete---------------------------------------------\n");
+
+            show(() -> {
+                SHOWS_CLIENT.delete(showT.getId().toString());
+            });
+
+            System.out.println("Event deleted");
+
+            System.out.println("\n------------------------------------------------------------------------------------------\n");
         } catch (RestClientException ex) {
             System.out.println("Exception ... " + ex.getMessage());
         }

@@ -16,9 +16,7 @@ public class ShowsClient extends RuntimeException {
     private <T> T execute(Callable<T> callable) {
         try {
             return callable.call();
-        } catch (ResourceAccessException | HttpClientErrorException e) { // server down, resource exception
-            throw new ServiceException(e);
-        } catch (Exception e) {
+        } catch (Exception e) { // server down, resource exception
             throw new ServiceException(e);
         }
     }
