@@ -63,6 +63,7 @@ public class ShowsRepositoryMock implements ShowsRepository {
     @Override
     public void update(Long aLong, Show elem) {
         logger.traceEntry("Updating show with {}", elem);
+
         Connection con = dbUtils.getConnection();
         try (PreparedStatement preStmt = con.prepareStatement("update Shows set artist_name = ?, date_and_time = ?, tickets_available = ?, tickets_sold = ?, location = ? where id_show = ?")) {
             preStmt.setString(1, elem.getArtistName());

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Festival Muzica</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="actions.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+<div class="parent">
+    <div class="fromUser">
+        <form method="post">
+            <label for="id_show">IdShow</label>
+            <input type="text" id="id_show" name="id_show">
+            <br><br>
+
+            <label for="artist_name">Artist Name</label>
+            <input type="text" id="artist_name" name="artist_name">
+            <br><br>
+
+            <label for="dataAndTime">Data&Time</label>
+            <input type="datetime-local" step="1" id="dataAndTime" name="dataAndTime">
+            <br><br>
+
+            <label for="tickets_available">Tickets Available</label>
+            <input type="text" id="tickets_available" name="tickets_available">
+            <br><br>
+
+            <label for="tickets_sold">Tickets Sold</label>
+            <input type="text" id="tickets_sold" name="tickets_sold">
+            <br><br><br>
+
+            <label for="id_locatie">IdLocatie</label>
+            <input type="text" id="id_locatie" name="id_locatie">
+            <br><br><br>
+
+        </form>
+    </div>
+    <br>
+    <div class="actions">
+        <button id="save">ADD</button>
+        <button id="update">UPDATE</button>
+        <button id="delete">DELETE</button>
+    </div>
+    <br><br><br>
+    <div>
+        <table id="shows">
+            <tr>
+                <th>IdShow</th>
+                <th>Artist Name</th>
+                <th>Data&Time</th>
+                <th>Tickets Available</th>
+                <th>Tickets Sold</th>
+                <th>IdLocatie</th>
+            </tr>
+        </table>
+    </div>
+</div>
+</body>
+</html>
