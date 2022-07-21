@@ -61,7 +61,7 @@ public class EmployeesHibernarteRepository implements EmployeesRepository {
             } catch (RuntimeException ex) {
                 ex.printStackTrace();
             } finally {
-                close();
+                //close();
             }
             return null;
         }
@@ -142,7 +142,7 @@ public class EmployeesHibernarteRepository implements EmployeesRepository {
                 System.out.println("\n\n\n---------------------------");
                 return null;
             } finally {
-                close();
+                //close();
             }
         }
     }

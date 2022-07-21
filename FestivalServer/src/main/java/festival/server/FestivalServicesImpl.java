@@ -40,9 +40,6 @@ public class FestivalServicesImpl implements IFestivalServices {
             if (loggedClients.get(employee.getMail()) != null) {
                 throw new FestivalException("User already logged in!");
             }
-            if (employeeTry.getPassword().equals(employee.getPassword())) {
-                loggedClients.put(employee.getMail(), client);
-            }
             else
                 throw new FestivalException("Invalid password!\n");
         } else {

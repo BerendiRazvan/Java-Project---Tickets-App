@@ -62,12 +62,12 @@ public class StartRpcServer {
         TicketsRepository ticketsRepository = new TicketsDataBaseRepository(serverProps);
 
 
-        //initialize();
-        //EmployeesRepository employeesHibernarteRepository = new EmployeesHibernarteRepository(sessionFactory);
+        initialize();
+        EmployeesRepository employeesHibernarteRepository = new EmployeesHibernarteRepository(sessionFactory);
 
 
-        IFestivalServices festivalServiceImpl = new FestivalServicesImpl(employeesRepository, showsRepository, ticketsRepository);
-        //IFestivalServices festivalServiceImpl = new FestivalServicesImpl(employeesHibernarteRepository, showsRepository, ticketsRepository);
+        //IFestivalServices festivalServiceImpl = new FestivalServicesImpl(employeesRepository, showsRepository, ticketsRepository);
+        IFestivalServices festivalServiceImpl = new FestivalServicesImpl(employeesHibernarteRepository, showsRepository, ticketsRepository);
 
 
 

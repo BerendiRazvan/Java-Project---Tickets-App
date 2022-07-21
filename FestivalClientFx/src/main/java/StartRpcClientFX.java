@@ -46,6 +46,8 @@ public class StartRpcClientFX extends Application {
 
         IFestivalServices server = new FestivalServicesRpcProxy(serverIP, serverPort);
 
+        System.out.println(getClass().getClassLoader().getResource("views/login-view.fxml"));
+
         FXMLLoader fxmlLoader = new FXMLLoader();
         fxmlLoader.setLocation(getClass().getClassLoader().getResource("views/login-view.fxml"));
         Parent root = fxmlLoader.load();
