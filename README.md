@@ -1,20 +1,21 @@
-# mpp-proiect-repository-BerendiRazvan
-mpp-proiect-repository-BerendiRazvan created by GitHub Classroom
+Aceasta este o aplicație realizată folosind Java și Gradle, JavaFX pentru interfața grafică, Hibernate pentru ORM și o bază de date SQLite. În aplicație poți vinde bilete la evenimente susținute de diferiți artiști. De asemenea poți adăuga, șterge, modifica sau vizualiza toate evenimentele folosind servicile REST și clientul web.
 
-S1 -> - NULL -
 
-S2 -> - Implementare claselor: Entity, Emmployee, Location, Show si Ticket pentru problema P2 in Java -
-      - Implementare claselor: Entity, Emmployee, Location, Show si Ticket pentru problema P2 in C# -
-      - Iplementare interfata Repository in Java si C# -
+Etapele realizării aplicației:
+
+Săptămâna 1 -> - Implementare claselor: Entity, Emmployee, Location, Show si Ticket -
+               - Modelare bază de date -
+               - Implementare interfață Repository -
       
-S3 -> - Rezolvare observatii profesor pentru lab-ul precedent -
-      - Implementare repository si jurnalizare in Java -
-      - Implementare repository si jurnalizare in C# -
+Săptămâna 2 -> - Implementare repository și jurnalizare -
 
-S4 -> - Implementare service in Java -
-      - Realizare interfata grafica cu javafx -
+Săptămâna 3 -> - Implementare service -
+               - Realizare interfață grafică cu JavaFX -
 
-S5 -> - Implementare service in C# -
-      - Realizare interfata grafica cu VisualStudio -
+Săptămâna 4 -> - Modificare aplicație, adăugare clinet-server -
 
-S6 -> - Modificare aplicatie Clinet-Server in Java-
+Săptămâna 5 -> - Modificare persistență pentru clasa Employees cu ORM (Hibernate) -
+
+Săptămâna 6 -> - Proiectare și implementare servicii REST pentru clasa Show -
+
+Săptămâna 7 -> - Implementare Client Web pentru serviciile REST -
