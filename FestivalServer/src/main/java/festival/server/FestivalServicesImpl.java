@@ -36,16 +36,20 @@ public class FestivalServicesImpl implements IFestivalServices {
     @Override
     public void login(Employee employee, IFestivalObserver client) throws FestivalException {
         Employee employeeTry = employeesRepository.findOneEmployee(employee.getMail());
-        if (employeeTry!=null) {
+        if (employeeTry != null) {
             if (loggedClients.get(employee.getMail()) != null) {
                 throw new FestivalException("User already logged in!");
+            } else {
+                if (employee.getPassword().matches(employeeTry.getPassword()))
+                    loggedClients.put(employee.getMail(), client);
+                else
+                    throw new FestivalException("Invalid password!\n");
             }
-            else
-                throw new FestivalException("Invalid password!\n");
         } else {
             throw new FestivalException("Authentication failed!");
         }
     }
+
 
     @Override
     public void logout(Employee employee, IFestivalObserver client) throws FestivalException {
