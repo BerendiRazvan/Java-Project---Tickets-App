@@ -1,21 +1,21 @@
-Aceasta este o aplicație realizată folosind Java și Gradle, JavaFX pentru interfața grafică, Hibernate pentru ORM și o bază de date SQLite. În aplicație poți vinde bilete la evenimente susținute de diferiți artiști. De asemenea poți adăuga, șterge, modifica sau vizualiza toate evenimentele folosind servicile REST și clientul web.
+This is an application built using Java and Gradle, JavaFX for the GUI, Hibernate for the ORM, and a SQLite database. In the application you can sell tickets to events supported by different artists. You can also add, delete, modify or view all events using REST services and the web client.
 
 
-Etapele realizării aplicației:
+Stages of application development:
 
-Săptămâna 1 -> - Implementare claselor: Entity, Emmployee, Location, Show si Ticket -
-               - Modelare bază de date -
-               - Implementare interfață Repository -
+Week 1 -> - Implementation of classes from the model: Entity, Employee, Location, Show and Ticket -
+          - Database modeling -
+          - Create Repository interface -
       
-Săptămâna 2 -> - Implementare repository și jurnalizare -
+Week 2 -> - Repository implementation with logging -
 
-Săptămâna 3 -> - Implementare service -
-               - Realizare interfață grafică cu JavaFX -
+Week 3 -> - Service implementation -
+          - Creating a graphical interface with JavaFX -
 
-Săptămâna 4 -> - Modificare aplicație, adăugare clinet-server -
+Week 4 -> - Modification of the application to work with client-server -
 
-Săptămâna 5 -> - Modificare persistență pentru clasa Employees cu ORM (Hibernate) -
+Week 5 -> - Change persistence for Employees class with ORM (Hibernate) -
 
-Săptămâna 6 -> - Proiectare și implementare servicii REST pentru clasa Show -
+Week 6 -> - Design and implement REST services for the Show class -
 
-Săptămâna 7 -> - Implementare Client Web pentru serviciile REST -
+Week 7 -> - Web Client implementation for REST services -
