@@ -16,6 +16,6 @@ Week 4 -> - Modification of the application to work with client-server -
 
 Week 5 -> - Change persistence for Employees class with ORM (Hibernate) -
 
-Week 6 -> - Design and implement REST services for the Show class -
+Week 6 -> - Design and implement REST services for a class -
 
 Week 7 -> - Web Client implementation for REST services -
